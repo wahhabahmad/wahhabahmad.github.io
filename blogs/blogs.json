@@ -1,0 +1,35 @@
+{
+  "blogs": [
+    {
+      "title": "Landing Your First Art Job in the Gaming Industry — 2026 Guide",
+      "description": "Breaking into the gaming industry as an artist in 2026 is both competitive and full of opportunity. A practical roadmap covering portfolios, engines, pipelines, networking, and soft skills.",
+      "date": "2024-03-15",
+      "readTime": "8 min read",
+      "coverImage": "assets/Landing first job2026.png",
+      "link": "blogs/landing-first-art-job.html",
+      "category": "Career",
+      "tags": ["Career", "Portfolio", "Game Industry", "2026 Guide"]
+    },
+    {
+      "title": "Crafting Worlds That Feel Alive — My Design Philosophy",
+      "description": "When players step into a world, they don't remember the mechanics first — they remember how it made them feel. My core pillars for designing worlds that spark emotion and invite exploration.",
+      "date": "2024-02-20",
+      "readTime": "6 min read",
+      "coverImage": "assets/Crafting Lively worlds.png",
+      "link": "blogs/crafting-worlds-alive.html",
+      "category": "Design Philosophy",
+      "tags": ["Design Philosophy", "World Building", "Game Design"]
+    },
+    {
+      "title": "How a Structured Art Pipeline Boosted Efficiency in a Metaverse Project",
+      "description": "A workflow framework called the Art Playbook Pipeline that solved production friction and improved team efficiency in metaverse art production.",
+      "date": "2024-01-15",
+      "readTime": "8 min read",
+      "coverImage": "assets/How a Structured Art Pipeline Boosted Efficiency.png",
+      "link": "blogs/metaverse-art-pipeline.html",
+      "category": "Pipeline",
+      "tags": ["Metaverse", "Pipeline", "Team Workflow"]
+    }
+  ]
+}
+

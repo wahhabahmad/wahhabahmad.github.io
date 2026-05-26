@@ -1,0 +1,296 @@
+/* Custom Styles for Game Artist Portfolio */
+
+/* Color Variables */
+:root {
+    --primary: #FF6B6B;
+    --primary-hover: #EE5253;
+    --secondary: #4ECDC4;
+    --secondary-hover: #45B7AF;
+    --tertiary: #FFE66D;
+    --purple-accent: #9c88ff;
+    --purple-hover: #8c7ae6;
+    --background-main: #FFF9E6;
+    --surface: #ffffff;
+    --text-main: #2D3436;
+    --text-heading: #2D3436;
+    --background-light: #FFFAF0;
+    --background-dark: #2D3436;
+    --accent: #FF9F43;
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background-main);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 99px;
+    border: 4px solid var(--background-main);
+}
+
+/* Text Outline */
+.text-outline {
+    -webkit-text-stroke: 2px #fff;
+    paint-order: stroke fill;
+}
+
+/* Background Patterns */
+.bg-grid-pattern {
+    background-image: radial-gradient(var(--accent) 2px, transparent 2px);
+    background-size: 40px 40px;
+}
+
+/* Button Press Animation */
+.btn-press {
+    transition: all 0.1s;
+}
+
+.btn-press:active {
+    transform: translateY(6px);
+    box-shadow: none !important;
+}
+
+/* Shape Utilities */
+.blob-shape {
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%;
+}
+
+.cloud-shape {
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+/* Layout Container */
+.layout-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Responsive Utilities */
+@media (max-width: 640px) {
+    .layout-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .layout-container {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    .layout-container {
+        padding-left: 10rem;
+        padding-right: 10rem;
+    }
+}
+
+/* Selection Styles */
+::selection {
+    background-color: var(--secondary);
+    color: white;
+}
+
+/* No underline for links */
+a {
+    text-decoration: none;
+}
+
+a.no-underline {
+    text-decoration: none !important;
+}
+
+/* Line clamp utility */
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Animation utilities */
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: .5;
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+        transform: translateY(0);
+        animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+}
+
+.animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-bounce {
+    animation: bounce 1s infinite;
+}
+
+/* Mobile-first responsive adjustments */
+@media (max-width: 768px) {
+    /* Adjust header for mobile */
+    header {
+        padding: 0.5rem 1rem;
+    }
+    
+    /* Stack navigation items on mobile */
+    nav {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    /* Adjust text sizes for mobile */
+    h1 {
+        font-size: 2.5rem !important;
+        line-height: 1.1 !important;
+    }
+    
+    h2 {
+        font-size: 2rem !important;
+    }
+    
+    /* Adjust spacing */
+    .py-24 {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+}
+
+/* Print styles */
+@media print {
+    .fixed {
+        position: static;
+    }
+    
+    header, footer {
+        position: static;
+    }
+}
+
+/* Quote Carousel Styles */
+#quote-carousel {
+    cursor: grab;
+    user-select: none;
+    touch-action: pan-y;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#quote-carousel:active {
+    cursor: grabbing;
+}
+
+#quote-slides {
+    display: flex;
+    will-change: transform;
+}
+
+.quote-slide {
+    flex-shrink: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.quote-dot {
+    transition: all 0.3s ease;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.quote-dot:hover {
+    transform: scale(1.3);
+}
+
+/* Typing Animation Styles */
+.typing-text {
+    display: inline-block;
+    min-width: 0.5em;
+    white-space: nowrap;
+}
+
+.typing-cursor {
+    display: inline-block;
+    animation: blink 1s infinite;
+    color: currentColor;
+    margin-left: 2px;
+    vertical-align: baseline;
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    51%, 100% {
+        opacity: 0;
+    }
+}
+
+/* Fix select dropdown double arrow */
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: none !important;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+/* Play animation */
+@keyframes play-bounce {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-10px) rotate(-2deg);
+    }
+    75% {
+        transform: translateY(-10px) rotate(2deg);
+    }
+}
+
+.play-animate {
+    animation: play-bounce 2s ease-in-out infinite;
+}
+
+/* Skill Bar Animation */
+.skill-bar {
+    width: 0;
+    transition: width 1.5s ease-out;
+    border-radius: 9999px;
+}
+

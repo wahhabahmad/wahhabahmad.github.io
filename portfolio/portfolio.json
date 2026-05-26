@@ -1,0 +1,1262 @@
+{
+  "projects": [
+    {
+      "title": "Golf Blitz",
+      "description": "You've never played golf like this before! Build your team, bring a friend, and prepare for an epic clash on the most chaotic, creative courses ever designed. Compete in real-time golf battles where every shot counts and every clash is a chance to prove your team's power.",
+      "thumbnail": "assets/GolfBlitz (2).jpg",
+      "videoEmbed": "",
+      "link": "https://apps.apple.com/cn/app/%E7%96%AF%E7%8B%82%E9%AB%98%E5%B0%94%E5%A4%AB/id6502593773",
+      "category": "Games",
+      "tags": [
+        "Android",
+        "UI/UX",
+        "iOS",
+        "Mobile",
+        "Multiplayer",
+        "Real-time"
+      ],
+      "featured": true,
+      "iosLink": "https://apps.apple.com/cn/app/%E7%96%AF%E7%8B%82%E9%AB%98%E5%B0%94%E5%A4%AB/id6502593773",
+      "androidLink": "https://play.google.com/store/apps/details?id=com.noodlecake.ssg4&hl=en",
+      "videoLink": "assets/Golfblitz2.mp4"
+    },
+    {
+      "title": "Bus Mania - Car Parking Jam",
+      "description": "Welcome to Bus Mania, the king of parking puzzle games! Navigate through colorful parking lots, solve challenging puzzles, and ensure every passenger gets to their matching ride. An exciting and brain-teasing adventure awaits you!",
+      "thumbnail": "assets/BusMania.png",
+      "videoEmbed": "",
+      "link": "https://apps.apple.com/us/app/bus-mania-car-parking-jam/id6587552527",
+      "category": "Games",
+      "tags": [
+        "Android",
+        "Puzzle",
+        "Casual",
+        "iOS",
+        "Mobile",
+        "UI/UX"
+      ],
+      "featured": false,
+      "iosLink": "https://apps.apple.com/us/app/bus-mania-car-parking-jam/id6587552527",
+      "androidLink": "https://play.google.com/store/apps/details?id=com.together.CrazyBus&hl=en",
+      "videoLink": "assets/Bus Mania2.mp4"
+    },
+    {
+      "title": "Water Mania",
+      "description": "Get ready to dive into Water Mania, a fun and relaxing puzzle game where pouring and sorting colored water is the key to unlocking your next challenge! Match colors, solve strategic puzzles, and enjoy vibrant 3D graphics with smooth animations.",
+      "thumbnail": "assets/WaterMania.png",
+      "videoEmbed": "",
+      "link": "https://apps.apple.com/us/app/water-mania/id6748674869",
+      "category": "Games",
+      "tags": [
+        "Android",
+        "Puzzle",
+        "Casual",
+        "iOS",
+        "Mobile",
+        "UI/UX"
+      ],
+      "featured": false,
+      "iosLink": "https://apps.apple.com/us/app/water-mania/id6748674869",
+      "androidLink": "https://play.google.com/store/apps/details?id=com.together.WaterManiaGP&hl=en",
+      "videoLink": "https://www.youtube.com/watch?v=8fvzPZPTF8Y"
+    },
+    {
+      "title": "Water Jam Sort Puzzle",
+      "description": "A fresh take on the classic water sorting puzzle! Sort colors so each bottle contains only one color. Many bottles are sealed in dirt—collect fully sorted bottles to break the dirt and unlock new possibilities. With intuitive controls and smooth 3D animations, Water Jam Sort offers a satisfying mix of relaxation and mental challenge.",
+      "thumbnail": "assets/WaterJam.png",
+      "videoEmbed": "",
+      "link": "https://play.google.com/store/apps/details?gl=US&hl=en-US&id=com.hcgames.waterjamsortpuzzlegp",
+      "category": "Games",
+      "tags": [
+        "Android",
+        "Puzzle",
+        "Casual",
+        "Mobile",
+        "UI/UX"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "https://play.google.com/store/apps/details?gl=US&hl=en-US&id=com.hcgames.waterjamsortpuzzlegp",
+      "videoLink": "https://www.youtube.com/watch?v=aBDNm56uoYw"
+    },
+    {
+      "title": "Fit Sort",
+      "description": "A refreshing and satisfying color-matching puzzle game! Sort colorful fruit and vegetable slices in juicers so each contains only one color, then blend them into delicious juices. Test your sorting skills with smooth animations and delightful visuals as you help customers on their fitness journey.",
+      "thumbnail": "assets/Fitsort.png",
+      "videoEmbed": "",
+      "link": "https://play.google.com/store/apps/details?gl=US&hl=en-US&id=com.hcgames.fitsortgp",
+      "category": "Games",
+      "tags": [
+        "Android",
+        "Puzzle",
+        "Casual",
+        "Mobile",
+        "UI/UX"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "https://play.google.com/store/apps/details?gl=US&hl=en-US&id=com.hcgames.fitsortgp",
+      "videoLink": "https://www.youtube.com/watch?v=CBIblmagVeU"
+    },
+    {
+      "title": "Nut Sort Jam Puzzle",
+      "description": "Twist, spin, and match your way through the nuttiest puzzle challenge! Sort and organize colorful nuts so each stack contains only one color. Drag, move, and rotate with strategic thinking to solve challenging puzzles with smooth gameplay and satisfying visuals.",
+      "thumbnail": "assets/Nutsort.jpg",
+      "videoEmbed": "",
+      "link": "https://play.google.com/store/apps/details?gl=US&hl=en-US&id=com.hcgames.nutsortpuzzlegp",
+      "category": "Games",
+      "tags": [
+        "Android",
+        "Puzzle",
+        "Casual",
+        "Mobile",
+        "UI/UX"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "https://play.google.com/store/apps/details?gl=US&hl=en-US&id=com.hcgames.nutsortpuzzlegp",
+      "videoLink": "https://www.youtube.com/watch?v=E_CVYoK9swc"
+    },
+    {
+      "title": "Color Paint ASMR",
+      "description": "Relax and unwind as you color stunning artwork with soothing ASMR brush strokes! Each level offers beautiful 2D illustrations with detailed outlines. Select perfect shades, grab your virtual marker, and enjoy smooth, satisfying animations as you fill every area with vibrant colors. Perfect for stress relief and artistic satisfaction.",
+      "thumbnail": "assets/Colorpaint.png",
+      "videoEmbed": "",
+      "link": "https://apps.apple.com/us/app/color-paint-asmr/id6748980998",
+      "category": "Games",
+      "tags": [
+        "Puzzle",
+        "Casual",
+        "iOS",
+        "Mobile",
+        "UI/UX"
+      ],
+      "featured": false,
+      "iosLink": "https://apps.apple.com/us/app/color-paint-asmr/id6748980998",
+      "androidLink": "",
+      "videoLink": "https://www.youtube.com/watch?v=HJrAnGMuOvc"
+    },
+    {
+      "title": "Knit Sort - Color Match Puzzle",
+      "description": "Unravel colorful yarns, sort them by color, and complete yarn art puzzles! Sort and untangle yarn so each spool holds just one color. Once sorted, spools are collected into matching boxes and magically fill in beautiful yarn paintings. Enjoy satisfying yarn sorting with smooth animations and beautiful 3D graphics!",
+      "thumbnail": "assets/knitsort.webp",
+      "videoEmbed": "",
+      "link": "https://apps.apple.com/us/app/knit-sort-color-match-puzzle/id6748984239",
+      "category": "Games",
+      "tags": [
+        "Puzzle",
+        "Casual",
+        "iOS",
+        "Mobile",
+        "UI/UX"
+      ],
+      "featured": false,
+      "iosLink": "https://apps.apple.com/us/app/knit-sort-color-match-puzzle/id6748984239",
+      "androidLink": "",
+      "videoLink": "https://www.youtube.com/watch?v=tTQumjCz1mE"
+    },
+    {
+      "title": "Screw Jam",
+      "description": "Get ready to twist your mind in Screw Mania! Solve toolbox jams by strategically moving toolboxes without blocking paths. Match each toolbox with screws of the same color to clear the board. Navigate from simple puzzles to intricate challenges with vibrant 3D design and delightful animations.",
+      "thumbnail": "assets/ScrewMania.png",
+      "videoEmbed": "",
+      "link": "https://play.google.com/store/apps/details?gl=US&hl=en-US&id=com.together.ScrewManiaGP",
+      "category": "Games",
+      "tags": [
+        "Android",
+        "Puzzle",
+        "Casual",
+        "Mobile",
+        "UI/UX"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "https://play.google.com/store/apps/details?gl=US&hl=en-US&id=com.together.ScrewManiaGP",
+      "videoLink": "https://www.youtube.com/watch?v=FbWliMcYUF8"
+    },
+    {
+      "title": "Cup Jam Escape",
+      "description": "Test your logic and strategy in Cup Jam Escape! Collect all the cups by matching them with their corresponding cupholders. Only the top cup can move, so plan carefully! With tricky obstacles and fresh mechanics in every level, challenge your puzzle-solving skills with stunning 3D graphics and smooth animations.",
+      "thumbnail": "assets/CupMania.jpg",
+      "videoEmbed": "",
+      "link": "https://play.google.com/store/apps/details?gl=US&hl=en-US&id=com.together.CupManiaGP",
+      "category": "Games",
+      "tags": [
+        "Android",
+        "Puzzle",
+        "Casual",
+        "Mobile",
+        "UI/UX"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "https://play.google.com/store/apps/details?gl=US&hl=en-US&id=com.together.CupManiaGP",
+      "videoLink": "https://www.youtube.com/watch?v=00b0qOzXFTw"
+    },
+    {
+      "title": "Bus Jam Fever",
+      "description": "Welcome to Bus Jam Fever – the ultimate airport shuttle rush! Control a fleet of buses on a straight, action-packed track! Swipe left and right to steer your airport shuttle through gates with math operations—add, subtract, multiply, or divide—to grow your bus count strategically. Pick up passengers and deliver them to the plane waiting at the end of the runway!",
+      "thumbnail": "assets/Bus Jam Fever.jpg",
+      "videoEmbed": "",
+      "link": "https://play.google.com/store/apps/details?gl=US&hl=en-US&id=com.zplay.BusJamFever",
+      "category": "Games",
+      "tags": [
+        "Android",
+        "Puzzle",
+        "Casual",
+        "Mobile",
+        "UI/UX"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "https://play.google.com/store/apps/details?gl=US&hl=en-US&id=com.zplay.BusJamFever",
+      "videoLink": ""
+    },
+    {
+      "title": "Snake Out - Bullet Jam Puzzle",
+      "description": "Get ready for a brain-burning, finger-satisfying color match adventure! Slide vibrant bullet boxes into action, feed your mighty cannon, and blast through a colorful snake before it gets too close. Enjoy beautiful 3D graphics, smart & addictive gameplay, and smooth controls in this strategic puzzle showdown!",
+      "thumbnail": "assets/SnakeOut.jpg",
+      "videoEmbed": "",
+      "link": "https://play.google.com/store/apps/details?gl=US&hl=en-US&id=com.zplay.SnakeOut",
+      "category": "Games",
+      "tags": [
+        "Android",
+        "Puzzle",
+        "Casual",
+        "Mobile",
+        "UI/UX"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "https://play.google.com/store/apps/details?gl=US&hl=en-US&id=com.zplay.SnakeOut",
+      "videoLink": ""
+    },
+    {
+      "title": "Sizzle Sort",
+      "description": "A fun and engaging color-matching puzzle game with a culinary twist! Sort and match colorful ingredients in this delightful sorting challenge.",
+      "thumbnail": "assets/Sizzlesort Logo.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "Games",
+      "tags": [
+        "UI/UX",
+        "Mobile",
+        "Puzzle",
+        "Casual"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": "assets/sizzle.webm",
+      "notPublished": true
+    },
+    {
+      "title": "Stone Miner",
+      "description": "Crush the stones with your truck, mine the resources, sell them on the base, and upgrade your truck to get even more! Explore different types of islands, the further you go the more rare ores you get.",
+      "thumbnail": "assets/StoneMiner.jpg",
+      "videoEmbed": "",
+      "link": "https://apps.apple.com/us/app/stone-miner/id1579285349",
+      "category": "Games",
+      "tags": [
+        "Casual",
+        "Simulation",
+        "iOS",
+        "Mobile",
+        "UI/UX"
+      ],
+      "featured": false,
+      "iosLink": "https://apps.apple.com/us/app/stone-miner/id1579285349",
+      "androidLink": "",
+      "videoLink": "https://www.youtube.com/watch?v=Wl6o6KfHe-o"
+    },
+    {
+      "title": "Gameworld Master",
+      "description": "Master the world of games in this exciting adventure!",
+      "thumbnail": "assets/Gamemaster.jpg",
+      "videoEmbed": "",
+      "link": "https://apps.apple.com/us/app/gameworld-master/id1616459311",
+      "category": "Games",
+      "tags": [
+        "UI/UX",
+        "iOS",
+        "Mobile",
+        "Casual"
+      ],
+      "featured": false,
+      "iosLink": "https://apps.apple.com/us/app/gameworld-master/id1616459311",
+      "androidLink": "",
+      "videoLink": "https://www.youtube.com/watch?v=V6rV5V4X6wc"
+    },
+    {
+      "title": "Junkyard Keeper",
+      "description": "Run your legendary junkyard and keep finding treasures! Drive your collecting truck and clean up different kinds of garbage in the huge junkyard. Transport the garbage back to your base, recycle it and turn it into money! Unlock upgrades for your vehicles and manage your junkyard to become a tycoon!",
+      "thumbnail": "assets/JunkYard Keeper.png",
+      "videoEmbed": "",
+      "link": "https://play.google.com/store/apps/details?gl=US&hl=en-US&id=com.armnomads.junkyardkeeper",
+      "category": "Games",
+      "tags": [
+        "Android",
+        "Casual",
+        "Simulation",
+        "Mobile",
+        "UI/UX"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "https://play.google.com/store/apps/details?gl=US&hl=en-US&id=com.armnomads.junkyardkeeper",
+      "videoLink": "https://www.youtube.com/watch?v=V6rV5V4X6wc"
+    },
+    {
+      "title": "Queen Bee!",
+      "description": "Join prom, dress well and be Prom Queen! Study hard, collect subject related objects and answer the questions. Stay away from bad or distractive things which will take you out of your targets.",
+      "thumbnail": "assets/Queenbee.webp",
+      "videoEmbed": "",
+      "link": "https://apps.apple.com/us/app/queen-bee/id1565033144",
+      "category": "Games",
+      "tags": [
+        "Casual",
+        "Adventure",
+        "iOS",
+        "Mobile",
+        "UI/UX"
+      ],
+      "featured": false,
+      "iosLink": "https://apps.apple.com/us/app/queen-bee/id1565033144",
+      "androidLink": "",
+      "videoLink": "https://www.youtube.com/watch?v=iofhb_blUmI"
+    },
+    {
+      "title": "Jelly Tubes 3D",
+      "description": "Dive into a colorful puzzle adventure where you drag and drop vibrant jellies into tubes to push stuck jellies onto tiles. Your goal is to match three jellies of the same color when they are adjacent. With limited moves to clear the targets, strategize wisely! Watch as jellies pop with delightful liquid explosions when matched correctly.",
+      "thumbnail": "assets/Jelly tubes.png",
+      "videoEmbed": "",
+      "link": "https://play.google.com/store/apps/details?id=com.eightgreatgames.jellytubes&hl=en",
+      "category": "Games",
+      "tags": [
+        "Android",
+        "Puzzle",
+        "Casual",
+        "Mobile",
+        "UI/UX"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "https://play.google.com/store/apps/details?id=com.eightgreatgames.jellytubes&hl=en",
+      "videoLink": "assets/Jellytube 3d.mp4"
+    },
+    {
+      "title": "CardaStation Metaverse Project",
+      "description": "A metaverse on a lunar base with all assets stored on Cardano blockchain. Explore the world with an in-game character and interact with other players through hangouts, games, or events. Build your own scenes on the moon and customize your avatar including your spacesuit when venturing outdoors.",
+      "thumbnail": "assets/CS.png",
+      "videoEmbed": "",
+      "link": "https://www.cardastation.com/",
+      "category": "Games",
+      "tags": [
+        "Cardano",
+        "Web3",
+        "UI/UX",
+        "Blockchain",
+        "Metaverse"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": "https://www.youtube.com/watch?v=YnsRwvFwJMA",
+      "websiteLink": "https://www.cardastation.com/"
+    },
+    {
+      "title": "Ball Pals",
+      "description": "A fun and engaging game featuring colorful ball characters!",
+      "thumbnail": "assets/Ball Pals.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "Games",
+      "tags": [
+        "Casual",
+        "Nintendo Switch",
+        "Steam",
+        "Mobile",
+        "UI/UX",
+        "PC"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": "https://www.youtube.com/watch?v=_VT4hmQoqvA",
+      "notReleased": true
+    },
+    {
+      "title": "Rider Redemption",
+      "description": "Best Highway Battle! Ride your motorcycle, fight enemies, protect yourself and win the race!",
+      "thumbnail": "assets/Rider redemption.webp",
+      "videoEmbed": "",
+      "link": "",
+      "category": "Games",
+      "tags": [
+        "UI/UX",
+        "Mobile",
+        "Racing"
+      ],
+      "featured": false,
+      "iosLink": "https://apps.apple.com/us/app/rider-redemption/id1559220451",
+      "androidLink": "",
+      "videoLink": "assets/Rider Redemption.mp4"
+    },
+    {
+      "title": "Hedgehog",
+      "description": "Help the cute hedgehog to escape from the house! Use spikes to get rid of cats and escape from the home.",
+      "thumbnail": "assets/Hedgehog.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "Games",
+      "tags": [
+        "UI/UX",
+        "Adventure",
+        "Mobile"
+      ],
+      "featured": false,
+      "iosLink": "https://apps.apple.com/us/app/hedgehog/id1569568636",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Color Truck",
+      "description": "The most enjoyable driving experience! Are you ready for enjoyable but challenging driving experience? Buckle up and drive!",
+      "thumbnail": "assets/Color truck.webp",
+      "videoEmbed": "",
+      "link": "",
+      "category": "Games",
+      "tags": [
+        "UI/UX",
+        "Mobile",
+        "Simulation"
+      ],
+      "featured": false,
+      "iosLink": "https://apps.apple.com/us/app/color-truck/id1563927343",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Hammer Smash",
+      "description": "Smash the Giants! Throw your Hammer and smash the Giants! As you smash small ones Boss will be even bigger and stronger. Good luck with that!",
+      "thumbnail": "assets/HammerSmash.webp",
+      "videoEmbed": "",
+      "link": "",
+      "category": "Games",
+      "tags": [
+        "UI/UX",
+        "Adventure",
+        "Mobile"
+      ],
+      "featured": false,
+      "iosLink": "https://apps.apple.com/us/app/hammer-smash/id1559219333",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Horse Taxi",
+      "description": "Renaissance Taxi! Become a horse-carriage driver and deliver your passengers to their destination. If you do not want to harm the passengers, be careful about bumps.",
+      "thumbnail": "assets/Horse Taxi.webp",
+      "videoEmbed": "",
+      "link": "",
+      "category": "Games",
+      "tags": [
+        "UI/UX",
+        "Mobile",
+        "Simulation"
+      ],
+      "featured": false,
+      "iosLink": "https://apps.apple.com/us/app/horse-taxi/id1559218575",
+      "androidLink": "",
+      "videoLink": "assets/Horse Taxi.mp4"
+    },
+    {
+      "title": "My Rich Land",
+      "description": "Catch minions and make them work for you. Get rich! Collect coins from money trees with minions you catch and work them in mines!",
+      "thumbnail": "assets/My rich land.webp",
+      "videoEmbed": "",
+      "link": "",
+      "category": "Games",
+      "tags": [
+        "UI/UX",
+        "Mobile",
+        "Casual"
+      ],
+      "featured": false,
+      "iosLink": "https://apps.apple.com/us/app/my-rich-land/id1611342536",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Sleep Walker",
+      "description": "Save his Life! He is walking on his sleep and he is in great danger! You need to help him and save his life!",
+      "thumbnail": "assets/SleepWalker.webp",
+      "videoEmbed": "",
+      "link": "",
+      "category": "Games",
+      "tags": [
+        "UI/UX",
+        "Adventure",
+        "Mobile"
+      ],
+      "featured": false,
+      "iosLink": "https://apps.apple.com/us/app/sleep-walker/id1550839078",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Cover Me!",
+      "description": "Protect your friend! Your friend is in great danger, cover him until he reach to helicopter.",
+      "thumbnail": "assets/CoverMe.webp",
+      "videoEmbed": "",
+      "link": "",
+      "category": "Games",
+      "tags": [
+        "UI/UX",
+        "Action",
+        "Mobile"
+      ],
+      "featured": false,
+      "iosLink": "https://apps.apple.com/us/app/cover-me/id1554042462",
+      "androidLink": "",
+      "videoLink": "assets/CoverMe.mp4"
+    },
+    {
+      "title": "Director Run",
+      "description": "Create the movie the way you want it Choose the right objects and casts for your movie and create your Blockbuster Movie!",
+      "thumbnail": "assets/DirectorRun.webp",
+      "videoEmbed": "",
+      "link": "",
+      "category": "Games",
+      "tags": [
+        "UI/UX",
+        "Roleplaying",
+        "Mobile"
+      ],
+      "featured": false,
+      "iosLink": "https://apps.apple.com/us/app/director-run/id1592296832",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Basket boys",
+      "description": "Experience exciting basketball action!",
+      "thumbnail": "assets/Basket Boys.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "Games",
+      "tags": [
+        "UI/UX",
+        "Sports",
+        "Mobile"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "SumoRun",
+      "description": "Race with sumo characters in this exciting running game!",
+      "thumbnail": "assets/SumoRun.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "Games",
+      "tags": [
+        "UI/UX",
+        "Mobile",
+        "Racing"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "SnowRun",
+      "description": "Navigate through snowy landscapes in this winter adventure!",
+      "thumbnail": "assets/SnowMood.webp",
+      "videoEmbed": "",
+      "link": "",
+      "category": "Games",
+      "tags": [
+        "UI/UX",
+        "Adventure",
+        "Mobile"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Pixel Giant",
+      "description": "Face off against giant pixel monsters in this action-packed adventure!",
+      "thumbnail": "assets/pixel Giant.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "Games",
+      "tags": [
+        "UI/UX",
+        "Action",
+        "Mobile"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Connect and Conquer.",
+      "description": "Strategic tower defense and resource management gameplay!",
+      "thumbnail": "assets/connect and conquer.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "Games",
+      "tags": [
+        "UI/UX",
+        "Strategy",
+        "Mobile"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Style my Doll!",
+      "description": "Create stunning fashion looks and style your doll!",
+      "thumbnail": "assets/doll designer.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "Games",
+      "tags": [
+        "UI/UX",
+        "Mobile",
+        "Fashion"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "IdleTower Rush",
+      "description": "Build your tower and rush to the top in this idle adventure!",
+      "thumbnail": "assets/idleTowerRush.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "Games",
+      "tags": [
+        "Idle",
+        "UI/UX",
+        "Mobile"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Bumblebee",
+      "description": "",
+      "thumbnail": "assets/bumblebee3d.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "CKit",
+      "description": "",
+      "thumbnail": "assets/CKit3d.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "CKit 2",
+      "description": "",
+      "thumbnail": "assets/cKit23d.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "CKit 3",
+      "description": "",
+      "thumbnail": "assets/Ckit33d.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Flash Bike",
+      "description": "",
+      "thumbnail": "assets/Flash3d.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Horror Bike",
+      "description": "",
+      "thumbnail": "assets/Horror3dBike.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Hulk",
+      "description": "",
+      "thumbnail": "assets/Hulk3d.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Zen",
+      "description": "",
+      "thumbnail": "assets/zen3d.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Stellaris",
+      "description": "",
+      "thumbnail": "assets/Stellaris3d.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Buggy 01",
+      "description": "",
+      "thumbnail": "assets/1.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Buggy 04",
+      "description": "",
+      "thumbnail": "assets/04.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Buggy 05",
+      "description": "",
+      "thumbnail": "assets/05.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Buggy 06",
+      "description": "",
+      "thumbnail": "assets/06.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Buggy 08",
+      "description": "",
+      "thumbnail": "assets/08.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Buggy 996",
+      "description": "",
+      "thumbnail": "assets/996.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Black Red Buggy",
+      "description": "",
+      "thumbnail": "assets/Blackred.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Camo Buggy",
+      "description": "",
+      "thumbnail": "assets/camo.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Cardano Buggy",
+      "description": "",
+      "thumbnail": "assets/Cardano.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Cheese Buggy",
+      "description": "",
+      "thumbnail": "assets/cheese.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Default Buggy",
+      "description": "",
+      "thumbnail": "assets/Default.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Donut Buggy",
+      "description": "",
+      "thumbnail": "assets/donut.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Hex Buggy",
+      "description": "",
+      "thumbnail": "assets/hex.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Red Green Buggy",
+      "description": "",
+      "thumbnail": "assets/Red green.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Red Dragon Buggy",
+      "description": "",
+      "thumbnail": "assets/redDrag.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Viper Buggy",
+      "description": "",
+      "thumbnail": "assets/Viper.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Purple Character",
+      "description": "",
+      "thumbnail": "assets/Purple Character.gif",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Character",
+        "Stylized"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Energy Generator",
+      "description": "",
+      "thumbnail": "assets/Generator3D.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Props",
+        "Hard Surface",
+        "Sci-Fi"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Oggy Character",
+      "description": "",
+      "thumbnail": "assets/Oggy 3D.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Character",
+        "Stylized"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Female Astronaut",
+      "description": "",
+      "thumbnail": "assets/femaleAstronaut3d.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Character",
+        "Hard Surface",
+        "Sci-Fi"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Dirt Bike",
+      "description": "",
+      "thumbnail": "assets/Dirt_Bike3d.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle",
+        "Hard Surface"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Multi-Rover Explorer",
+      "description": "",
+      "thumbnail": "assets/MultiRover_default3d.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle",
+        "Environment",
+        "Sci-Fi"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Sports Motorcycle",
+      "description": "",
+      "thumbnail": "assets/Sports_default3d.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Vehicle",
+        "Hard Surface",
+        "Electric"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Wood Material",
+      "description": "",
+      "thumbnail": "assets/Wood.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Material",
+        "Texture"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Wood Material 014",
+      "description": "",
+      "thumbnail": "assets/Wood_014.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Material",
+        "Texture"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Stylized Wall Material",
+      "description": "",
+      "thumbnail": "assets/Stylized Wall Material.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Material",
+        "Texture"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Wood Texture 2",
+      "description": "",
+      "thumbnail": "assets/Wood Texture 2.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Material",
+        "Texture"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Wood Material 1",
+      "description": "",
+      "thumbnail": "assets/Wood_1.png",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Material",
+        "Texture"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Aku",
+      "description": "",
+      "thumbnail": "assets/Aku.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Character"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    },
+    {
+      "title": "Jugg",
+      "description": "",
+      "thumbnail": "assets/Jugg.jpg",
+      "videoEmbed": "",
+      "link": "",
+      "category": "3D Art",
+      "tags": [
+        "Character"
+      ],
+      "featured": false,
+      "iosLink": "",
+      "androidLink": "",
+      "videoLink": ""
+    }
+  ]
+}

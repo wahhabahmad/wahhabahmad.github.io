@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Wahab Ahmad - Contact</title>
+    <link rel="icon" type="image/png" href="assets/logo.png"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#FF6B6B",
+                        "primary-hover": "#EE5253",
+                        secondary: "#4ECDC4",
+                        "secondary-hover": "#45B7AF",
+                        tertiary: "#FFE66D",
+                        "background-main": "#FFF9E6",
+                        surface: "#ffffff",
+                        "text-main": "#2D3436",
+                        "text-heading": "#2D3436",
+                        "background-light": "#FFFAF0",
+                        "background-dark": "#2D3436",
+                        accent: "#FF9F43"
+                    },
+                    fontFamily: {
+                        display: ["Fredoka", "sans-serif"],
+                        body: ["Nunito", "sans-serif"]
+                    },
+                    borderRadius: {
+                        DEFAULT: "1.5rem",
+                        lg: "2.5rem",
+                        xl: "3.5rem",
+                        full: "9999px"
+                    },
+                    boxShadow: {
+                        "game-btn": "0 6px 0 0 #D63031",
+                        "game-btn-hover": "0 3px 0 0 #D63031",
+                        "game-btn-secondary": "0 6px 0 0 #1ABC9C",
+                        "game-btn-secondary-hover": "0 3px 0 0 #1ABC9C",
+                        "game-card": "0 10px 0 0 rgba(0,0,0,0.05), 0 20px 25px -5px rgba(0,0,0,0.1)",
+                        "panel": "0 8px 0 0 #FFEAA7",
+                    }
+                }
+            }
+        };
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-background-main text-text-main font-body overflow-x-hidden antialiased selection:bg-secondary selection:text-white">
+<div class="relative flex min-h-screen w-full flex-col">
+    <!-- Navbar will be injected here -->
+    <div id="navbar-container"></div>
+    
+    <main class="flex-grow pt-32 pb-20">
+        <div class="relative py-24 bg-primary overflow-hidden min-h-screen flex items-center">
+            <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#fff 4px, transparent 4px); background-size: 30px 30px;"></div>
+            <div class="absolute -top-20 -right-20 size-80 bg-white opacity-10 rounded-full blur-3xl"></div>
+            <div class="absolute -bottom-20 -left-20 size-80 bg-tertiary opacity-20 rounded-full blur-3xl"></div>
+            <div class="px-4 md:px-10 lg:px-40 layout-container max-w-[1200px] mx-auto relative z-10 w-full">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
+                    <div class="text-white text-center lg:text-left">
+                        <div class="inline-block bg-white/20 px-4 py-1 rounded-full text-sm font-black uppercase mb-6 backdrop-blur-sm border border-white/20">Open for work</div>
+                        <h2 class="text-5xl md:text-7xl font-display font-black mb-6 drop-shadow-md leading-none">
+                            Ready to <br/>
+                            <span class="text-tertiary text-outline drop-shadow-lg">Play?</span>
+                        </h2>
+                        <p class="text-white/90 text-xl mb-10 leading-relaxed font-bold max-w-lg mx-auto lg:mx-0">
+                            I'm currently looking for new adventures, freelance gigs, and co-op missions. Let's build something epic!
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                            <div class="flex items-center gap-4 bg-white/10 p-4 rounded-2xl border-2 border-white/20 backdrop-blur-md hover:bg-white/20 transition-colors cursor-pointer">
+                                <div class="size-12 rounded-xl bg-white text-primary flex items-center justify-center shadow-lg transform -rotate-3">
+                                    <span class="material-symbols-outlined">mail</span>
+                                </div>
+                                <div class="text-left">
+                                    <p class="text-white/60 text-[10px] font-black uppercase tracking-wider">Send Loot To</p>
+                                    <a class="text-white text-lg font-black hover:text-tertiary transition-colors" href="mailto:Wahab.ahmad@live.com">Wahab.ahmad@live.com</a>
+                                </div>
+                            </div>
+                            <a href="assets/Wahab Ahmad CV--.pdf" download class="btn-press bg-white/10 hover:bg-white/20 px-6 py-4 rounded-2xl border-2 border-white/20 backdrop-blur-md transition-all flex items-center gap-3 text-white font-black">
+                                <span class="material-symbols-outlined">download</span>
+                                Download CV
+                            </a>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-[2.5rem] p-8 md:p-10 shadow-2xl relative border-8 border-black/5 transform rotate-1">
+                        <div class="absolute -top-8 -right-8 size-24 bg-tertiary rounded-full flex items-center justify-center text-text-heading shadow-game-card animate-bounce hidden md:flex border-4 border-white transform rotate-12">
+                            <span class="font-display font-black text-sm text-center leading-tight">SAY<br/>HI!</span>
+                        </div>
+                        <form class="flex flex-col gap-5" action="#" method="POST">
+                            <div class="grid grid-cols-2 gap-4">
+                                <div class="flex flex-col gap-2">
+                                    <label class="text-slate-400 text-xs font-black uppercase ml-2">Username</label>
+                                    <input class="bg-slate-50 border-2 border-slate-200 rounded-2xl p-4 text-text-heading font-bold focus:outline-none focus:border-primary focus:bg-white focus:ring-4 focus:ring-primary/10 transition-all" placeholder="Player 1" type="text" name="username" required/>
+                                </div>
+                                <div class="flex flex-col gap-2">
+                                    <label class="text-slate-400 text-xs font-black uppercase ml-2">Contact</label>
+                                    <input class="bg-slate-50 border-2 border-slate-200 rounded-2xl p-4 text-text-heading font-bold focus:outline-none focus:border-primary focus:bg-white focus:ring-4 focus:ring-primary/10 transition-all" placeholder="email@game.com" type="email" name="email" required/>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <label class="text-slate-400 text-xs font-black uppercase ml-2">Quest Type</label>
+                                <div class="relative">
+                                    <select class="w-full bg-slate-50 border-2 border-slate-200 rounded-2xl p-4 text-text-heading font-bold focus:outline-none focus:border-primary focus:bg-white focus:ring-4 focus:ring-primary/10 transition-all appearance-none cursor-pointer" name="type" required>
+                                        <option>Project Inquiry (New Game)</option>
+                                        <option>Freelance Work (Side Quest)</option>
+                                        <option>Just Saying Hi (NPC Chat)</option>
+                                    </select>
+                                    <div class="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none text-slate-400">
+                                        <span class="material-symbols-outlined">expand_more</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <label class="text-slate-400 text-xs font-black uppercase ml-2">Message</label>
+                                <textarea class="bg-slate-50 border-2 border-slate-200 rounded-2xl p-4 text-text-heading font-bold focus:outline-none focus:border-primary focus:bg-white focus:ring-4 focus:ring-primary/10 transition-all resize-none" placeholder="What are we building?" rows="4" name="message" required></textarea>
+                            </div>
+                            <button class="btn-press mt-2 bg-secondary text-white font-black text-xl py-5 rounded-2xl hover:bg-secondary-hover transition-colors shadow-game-btn-secondary w-full uppercase tracking-wider flex justify-center items-center gap-2" type="submit">
+                                Press Start <span class="material-symbols-outlined">arrow_forward</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer will be injected here -->
+    <div id="footer-container"></div>
+</div>
+
+<script src="js/components.js"></script>
+<script src="js/script.js"></script>
+<script>
+    // Initialize components
+    initComponents('contact');
+</script>
+</body>
+</html>
+

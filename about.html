@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Wahab Ahmad - About</title>
+    <link rel="icon" type="image/png" href="assets/logo.png"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#FF6B6B",
+                        "primary-hover": "#EE5253",
+                        secondary: "#4ECDC4",
+                        "secondary-hover": "#45B7AF",
+                        tertiary: "#FFE66D",
+                        "purple-accent": "#9c88ff",
+                        "purple-hover": "#8c7ae6",
+                        "background-main": "#FFF9E6",
+                        surface: "#ffffff",
+                        "text-main": "#2D3436",
+                        "text-heading": "#2D3436",
+                        "background-light": "#FFFAF0",
+                        "background-dark": "#2D3436",
+                        accent: "#FF9F43"
+                    },
+                    fontFamily: {
+                        display: ["Fredoka", "sans-serif"],
+                        body: ["Nunito", "sans-serif"]
+                    },
+                    borderRadius: {
+                        DEFAULT: "1.5rem",
+                        lg: "2.5rem",
+                        xl: "3.5rem",
+                        full: "9999px"
+                    },
+                    boxShadow: {
+                        "game-btn": "0 6px 0 0 #D63031",
+                        "game-btn-hover": "0 3px 0 0 #D63031",
+                        "game-btn-secondary": "0 6px 0 0 #1ABC9C",
+                        "game-btn-secondary-hover": "0 3px 0 0 #1ABC9C",
+                        "game-btn-purple": "0 6px 0 0 #8c7ae6",
+                        "game-btn-purple-hover": "0 3px 0 0 #8c7ae6",
+                        "game-card": "0 10px 0 0 rgba(0,0,0,0.05), 0 20px 25px -5px rgba(0,0,0,0.1)",
+                        "panel": "0 8px 0 0 #FFEAA7",
+                    }
+                }
+            }
+        };
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-background-main text-text-main font-body overflow-x-hidden antialiased selection:bg-purple-accent selection:text-white">
+<div class="relative flex min-h-screen w-full flex-col">
+    <!-- Navbar will be injected here -->
+    <div id="navbar-container"></div>
+    
+    <main class="flex-grow pt-32 pb-20">
+        <div class="layout-container px-4 md:px-10 lg:px-40 max-w-[1200px] mx-auto mb-20">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7 order-2 lg:order-1">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-purple-100 text-purple-accent border-2 border-purple-200 mb-6 animate-bounce">
+                        <span class="material-symbols-outlined text-lg filled">verified_user</span>
+                        <span class="text-xs font-black uppercase tracking-wider">Character Profile</span>
+                    </div>
+                    <h1 class="font-display text-text-heading text-5xl md:text-7xl font-black leading-[0.95] tracking-tight mb-8">
+                        The Player Behind <br/>
+                        <span class="text-purple-accent relative inline-block z-10 px-2 mt-2">
+                            The Pixels
+                            <svg class="absolute -bottom-2 left-0 w-full h-4 text-tertiary -z-10" preserveAspectRatio="none" viewBox="0 0 100 10">
+                                <path d="M0 5 Q 50 15 100 5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="12"></path>
+                            </svg>
+                        </span>
+                    </h1>
+                    <div class="prose prose-lg text-text-main font-bold opacity-80 leading-relaxed space-y-6">
+                        <p>
+                            Hi! I'm Wahab Ahmad. For over a decade, I've been on a quest to transform caffeine into colorful, interactive worlds. My mission is simple: make games that look as fun as they feel.
+                        </p>
+                        <p>
+                            Starting as a junior artist tweaking UI buttons (and breaking a few builds), I've leveled up through the ranks to lead entire art teams. I believe that good game art isn't just about pretty pictures—it's about clarity, feedback, and that juicy "game feel" that keeps players coming back for one more round.
+                        </p>
+                    </div>
+                    <div class="flex gap-4 mt-10">
+                        <a class="btn-press inline-flex items-center justify-center gap-2 h-14 px-8 rounded-2xl bg-purple-accent text-white text-lg font-display font-black shadow-game-btn-purple hover:shadow-game-btn-purple-hover hover:translate-y-[2px] transition-all" href="#adventure-map">
+                            View Journey
+                            <span class="material-symbols-outlined">map</span>
+                        </a>
+                        <a class="btn-press inline-flex items-center justify-center gap-2 h-14 px-8 rounded-2xl bg-secondary text-white text-lg font-display font-black shadow-game-btn-secondary hover:shadow-game-btn-secondary-hover hover:translate-y-[2px] transition-all" href="assets/Wahab Ahmad CV--.pdf" download>
+                            <span class="material-symbols-outlined">download</span>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:col-span-5 order-1 lg:order-2 relative flex justify-center perspective-1000">
+                    <div class="absolute inset-0 bg-tertiary rounded-[3rem] transform rotate-6 scale-90 opacity-40 blur-xl animate-pulse"></div>
+                    <div class="relative w-72 h-80 md:w-96 md:h-[450px] transform hover:rotate-1 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-purple-accent rounded-[2.5rem] transform -rotate-3 border-4 border-black/5"></div>
+                        <div class="absolute inset-0 bg-white rounded-[2rem] overflow-hidden border-[6px] border-white shadow-game-card">
+                            <img alt="Wahab Ahmad Portrait" class="w-full h-full object-cover" src="assets/Wahab Ahmad Portrait.png"/>
+                        </div>
+                        <div class="absolute -bottom-6 -right-4 bg-white px-6 py-3 rounded-2xl shadow-lg border-b-4 border-slate-100 transform rotate-3 flex items-center gap-3">
+                            <div class="size-10 bg-primary rounded-full flex items-center justify-center text-white">
+                                <span class="material-symbols-outlined">brush</span>
+                            </div>
+                            <div>
+                                <p class="text-xs text-slate-400 font-bold uppercase">Main Weapon</p>
+                                <p class="text-text-heading font-black">Art Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-white py-20 border-y-4 border-dashed border-slate-200">
+            <div class="layout-container px-4 md:px-10 lg:px-40 max-w-[1200px] mx-auto">
+                <div class="flex items-center gap-4 mb-12">
+                    <div class="h-1 flex-1 bg-slate-100 rounded-full"></div>
+                    <h2 class="text-3xl font-display font-black text-text-heading uppercase tracking-wide">Stats &amp; Skills</h2>
+                    <div class="h-1 flex-1 bg-slate-100 rounded-full"></div>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                    <div class="group bg-background-light p-6 rounded-[2rem] border-2 border-slate-100 text-center hover:border-purple-accent hover:shadow-md transition-all">
+                        <div class="inline-flex items-center justify-center size-14 rounded-full bg-purple-100 text-purple-accent mb-4 group-hover:scale-110 transition-transform">
+                            <span class="material-symbols-outlined text-3xl">calendar_month</span>
+                        </div>
+                        <h3 class="text-4xl font-black text-text-heading font-display mb-1">10+</h3>
+                        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest">Years in Game</p>
+                    </div>
+                    <div class="group bg-background-light p-6 rounded-[2rem] border-2 border-slate-100 text-center hover:border-secondary hover:shadow-md transition-all">
+                        <div class="inline-flex items-center justify-center size-14 rounded-full bg-teal-100 text-secondary mb-4 group-hover:scale-110 transition-transform">
+                            <span class="material-symbols-outlined text-3xl">trending_up</span>
+                        </div>
+                        <h3 class="text-4xl font-black text-text-heading font-display mb-1">6+</h3>
+                        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest">#1 Chart Hits</p>
+                    </div>
+                    <div class="group bg-background-light p-6 rounded-[2rem] border-2 border-slate-100 text-center hover:border-primary hover:shadow-md transition-all">
+                        <div class="inline-flex items-center justify-center size-14 rounded-full bg-red-100 text-primary mb-4 group-hover:scale-110 transition-transform">
+                            <span class="material-symbols-outlined text-3xl">download</span>
+                        </div>
+                        <h3 class="text-4xl font-black text-text-heading font-display mb-1">500M+</h3>
+                        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest">Downloads</p>
+                    </div>
+                    <div class="group bg-background-light p-6 rounded-[2rem] border-2 border-slate-100 text-center hover:border-tertiary hover:shadow-md transition-all">
+                        <div class="inline-flex items-center justify-center size-14 rounded-full bg-yellow-100 text-orange-400 mb-4 group-hover:scale-110 transition-transform">
+                            <span class="material-symbols-outlined text-3xl">groups</span>
+                        </div>
+                        <h3 class="text-4xl font-black text-text-heading font-display mb-1">100+</h3>
+                        <p class="text-xs font-bold text-slate-400 uppercase tracking-widest">Games Produced</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="py-24 relative overflow-visible">
+            <div class="absolute -right-20 top-20 text-slate-50 transform rotate-12 -z-10">
+                <span class="material-symbols-outlined text-[300px]">format_quote</span>
+            </div>
+            <div class="layout-container px-4 md:px-10 lg:px-40 max-w-[1000px] mx-auto">
+                <div class="relative overflow-visible">
+                    <!-- Quote Carousel Container -->
+                    <div id="quote-carousel" class="relative py-4" style="overflow-x: hidden; overflow-y: visible;">
+                        <div id="quote-slides" class="flex transition-transform duration-500 ease-in-out" style="transform: translateX(-100%);">
+                            <!-- Quote 1 -->
+                            <div class="quote-slide min-w-full px-4 text-center flex-shrink-0">
+                                <div class="inline-block bg-secondary text-white px-4 py-1 rounded-lg text-xs font-black uppercase mb-6 shadow-game-btn-secondary rotate-2 animate-bounce" style="animation-duration: 2s;">Art Direction</div>
+                                <h2 class="text-2xl md:text-3xl lg:text-4xl font-display font-black text-text-heading leading-[1.2] max-w-3xl mx-auto">
+                                    "Great art is<br/>
+                                    <span class="text-secondary">invisible</span> when it works—<br/>
+                                    players feel it,<br/>
+                                    not see it."
+                                </h2>
+                            </div>
+                            
+                            <!-- Quote 2 (Main) -->
+                            <div class="quote-slide min-w-full px-4 text-center flex-shrink-0">
+                                <div class="inline-block bg-purple-accent text-white px-4 py-1 rounded-lg text-xs font-black uppercase mb-6 shadow-game-btn-purple rotate-[-2deg] animate-bounce" style="animation-duration: 2s;">Design Philosophy</div>
+                                <h2 class="text-2xl md:text-3xl lg:text-4xl font-display font-black text-text-heading leading-[1.2] max-w-3xl mx-auto">
+                                    "Every pixel must<br/>
+                                    serve the gameplay.<br/>
+                                    If it doesn't make<br/>
+                                    the player <span class="text-purple-accent">smile</span> or<br/>
+                                    help them <span class="text-secondary">win</span>,<br/>
+                                    delete it."
+                                </h2>
+                            </div>
+                            
+                            <!-- Quote 3 -->
+                            <div class="quote-slide min-w-full px-4 text-center flex-shrink-0">
+                                <div class="inline-block bg-primary text-white px-4 py-1 rounded-lg text-xs font-black uppercase mb-6 shadow-game-btn rotate-[-2deg] animate-bounce" style="animation-duration: 2s;">User Experience</div>
+                                <h2 class="text-2xl md:text-3xl lg:text-4xl font-display font-black text-text-heading leading-[1.2] max-w-3xl mx-auto">
+                                    "The best UI is<br/>
+                                    the one players<br/>
+                                    <span class="text-primary">forget</span> they're using."
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Navigation Dots -->
+                    <div class="flex justify-center gap-3 mt-8">
+                        <button class="quote-dot size-3 rounded-full bg-slate-200 transition-all cursor-pointer hover:scale-125" data-slide="0" onclick="goToSlide(0)"></button>
+                        <button class="quote-dot size-3 rounded-full bg-purple-accent transition-all cursor-pointer hover:scale-125" data-slide="1" onclick="goToSlide(1)"></button>
+                        <button class="quote-dot size-3 rounded-full bg-slate-200 transition-all cursor-pointer hover:scale-125" data-slide="2" onclick="goToSlide(2)"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-white py-20 relative overflow-hidden">
+            <div class="layout-container px-4 md:px-10 lg:px-40 max-w-[1200px] mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-display font-black text-text-heading mb-4">Tools &amp; Expertise</h2>
+                    <p class="text-lg text-text-main font-bold opacity-60 max-w-2xl mx-auto">My inventory is stocked with the latest industry-standard software and a few magical artifacts.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-background-light p-8 rounded-[2.5rem] border-2 border-slate-100 hover:border-purple-accent hover:-translate-y-2 transition-all duration-300 shadow-panel">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="size-12 rounded-2xl bg-purple-100 text-purple-accent flex items-center justify-center">
+                                <span class="material-symbols-outlined text-2xl">view_in_ar</span>
+                            </div>
+                            <h3 class="text-xl font-display font-black text-text-heading">3D Modeling</h3>
+                        </div>
+                        <div class="space-y-3">
+                            <div class="flex items-center justify-between">
+                                <span class="font-bold text-text-main text-sm">Blender</span>
+                                <div class="w-32 h-3 bg-slate-200 rounded-full overflow-hidden">
+                                    <div class="skill-bar h-full bg-purple-accent" data-skill="95"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span class="font-bold text-text-main text-sm">Maya</span>
+                                <div class="w-32 h-3 bg-slate-200 rounded-full overflow-hidden">
+                                    <div class="skill-bar h-full bg-purple-accent" data-skill="78"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span class="font-bold text-text-main text-sm">ZBrush</span>
+                                <div class="w-32 h-3 bg-slate-200 rounded-full overflow-hidden">
+                                    <div class="skill-bar h-full bg-purple-accent" data-skill="95"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-background-light p-8 rounded-[2.5rem] border-2 border-slate-100 hover:border-secondary hover:-translate-y-2 transition-all duration-300 shadow-panel">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="size-12 rounded-2xl bg-teal-100 text-secondary flex items-center justify-center">
+                                <span class="material-symbols-outlined text-2xl">draw</span>
+                            </div>
+                            <h3 class="text-xl font-display font-black text-text-heading">2D &amp; UI</h3>
+                        </div>
+                        <div class="space-y-3">
+                            <div class="flex items-center justify-between">
+                                <span class="font-bold text-text-main text-sm">Photoshop</span>
+                                <div class="w-32 h-3 bg-slate-200 rounded-full overflow-hidden">
+                                    <div class="skill-bar h-full bg-secondary" data-skill="98"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span class="font-bold text-text-main text-sm">Figma</span>
+                                <div class="w-32 h-3 bg-slate-200 rounded-full overflow-hidden">
+                                    <div class="skill-bar h-full bg-secondary" data-skill="90"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span class="font-bold text-text-main text-sm">Illustrator</span>
+                                <div class="w-32 h-3 bg-slate-200 rounded-full overflow-hidden">
+                                    <div class="skill-bar h-full bg-secondary" data-skill="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-background-light p-8 rounded-[2.5rem] border-2 border-slate-100 hover:border-primary hover:-translate-y-2 transition-all duration-300 shadow-panel">
+                        <div class="flex items-center gap-4 mb-6">
+                            <div class="size-12 rounded-2xl bg-red-100 text-primary flex items-center justify-center">
+                                <span class="material-symbols-outlined text-2xl">stadia_controller</span>
+                            </div>
+                            <h3 class="text-xl font-display font-black text-text-heading">Engines</h3>
+                        </div>
+                        <div class="space-y-3">
+                            <div class="flex items-center justify-between">
+                                <span class="font-bold text-text-main text-sm">Unity</span>
+                                <div class="w-32 h-3 bg-slate-200 rounded-full overflow-hidden">
+                                    <div class="skill-bar h-full bg-primary" data-skill="92"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span class="font-bold text-text-main text-sm">Unreal 5</span>
+                                <div class="w-32 h-3 bg-slate-200 rounded-full overflow-hidden">
+                                    <div class="skill-bar h-full bg-primary" data-skill="85"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-center justify-between">
+                                <span class="font-bold text-text-main text-sm">Godot</span>
+                                <div class="w-32 h-3 bg-slate-200 rounded-full overflow-hidden">
+                                    <div class="skill-bar h-full bg-primary" data-skill="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-12 flex flex-wrap justify-center gap-4">
+                    <span class="px-5 py-2 rounded-xl bg-slate-100 text-slate-500 font-bold text-sm border border-slate-200">Substance Painter</span>
+                    <span class="px-5 py-2 rounded-xl bg-slate-100 text-slate-500 font-bold text-sm border border-slate-200">After Effects</span>
+                    <span class="px-5 py-2 rounded-xl bg-slate-100 text-slate-500 font-bold text-sm border border-slate-200">Spine 2D</span>
+                    <span class="px-5 py-2 rounded-xl bg-slate-100 text-slate-500 font-bold text-sm border border-slate-200">Git / Version Control</span>
+                    <span class="px-5 py-2 rounded-xl bg-slate-100 text-slate-500 font-bold text-sm border border-slate-200">Agile / Jira</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="py-24 bg-background-light border-y-4 border-dashed border-slate-200" id="adventure-map">
+            <div class="px-4 md:px-10 lg:px-40 layout-container max-w-[1000px] mx-auto">
+                <div class="text-center mb-16 relative">
+                    <div class="absolute top-1/2 left-0 right-0 h-1 bg-slate-200 -z-10"></div>
+                    <div class="inline-block px-8 py-3 rounded-full bg-white border-4 border-slate-100 shadow-sm z-10">
+                        <h3 class="text-3xl font-display font-black text-text-heading">Adventure Map</h3>
+                    </div>
+                </div>
+                <div class="relative">
+                    <!-- Vertical dashed purple timeline -->
+                    <div class="absolute left-6 md:left-1/2 top-0 bottom-0 w-4 bg-purple-100 rounded-full transform md:-translate-x-1/2 border-2 border-dashed border-purple-300"></div>
+                    
+                    <!-- Current Quest (Top) - LEFT -->
+                    <div class="relative flex flex-col md:flex-row gap-8 mb-16 items-start md:items-center w-full group">
+                        <div class="md:w-1/2 md:text-right md:pr-16 pl-20 md:pl-0 order-1">
+                            <div class="bg-white p-6 rounded-3xl border-b-8 border-r-8 border-purple-accent/20 shadow-sm hover:border-purple-accent transition-all transform hover:-rotate-1">
+                                <h4 class="text-2xl font-display font-black text-purple-accent">Senior Game Artist</h4>
+                                <p class="text-text-heading font-bold text-sm mb-2 bg-slate-100 inline-block px-2 py-1 rounded">Zplay • 10/2024 - Present</p>
+                                <div class="flex flex-wrap gap-2 mt-2">
+                                    <span class="px-3 py-1 bg-purple-accent/10 text-purple-accent rounded-lg text-xs font-black uppercase">Figma</span>
+                                    <span class="px-3 py-1 bg-purple-accent/10 text-purple-accent rounded-lg text-xs font-black uppercase">UI/UX Design</span>
+                                    <span class="px-3 py-1 bg-purple-accent/10 text-purple-accent rounded-lg text-xs font-black uppercase">Art Direction</span>
+                                    <span class="px-3 py-1 bg-purple-accent/10 text-purple-accent rounded-lg text-xs font-black uppercase">Asset Optimization</span>
+                                    <span class="px-3 py-1 bg-purple-accent/10 text-purple-accent rounded-lg text-xs font-black uppercase">Puzzle Games</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute left-6 md:left-1/2 size-16 rounded-full bg-purple-accent border-4 border-white shadow-xl transform -translate-x-1/2 z-10 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-white text-3xl animate-bounce">flag</span>
+                        </div>
+                        <div class="md:w-1/2 md:pl-16 pl-20 order-2 flex items-center">
+                            <span class="inline-block px-4 py-2 rounded-xl bg-secondary text-white text-sm font-black shadow-game-btn-secondary transform -rotate-3">CURRENT QUEST</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Lead Game Artist - RIGHT -->
+                    <div class="relative flex flex-col md:flex-row gap-8 mb-16 items-start md:items-center w-full group">
+                        <div class="md:w-1/2 md:text-right md:pr-16 pl-20 md:pl-0 order-1 md:order-1 flex justify-end items-center">
+                            <div class="flex flex-col items-end opacity-50 group-hover:opacity-100 transition-opacity">
+                                <span class="text-4xl font-black text-slate-300 font-display">lvl 5</span>
+                            </div>
+                        </div>
+                        <div class="absolute left-6 md:left-1/2 size-12 rounded-full bg-white border-4 border-purple-300 shadow-md transform -translate-x-1/2 z-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <div class="size-4 rounded-full bg-purple-300"></div>
+                        </div>
+                        <div class="md:w-1/2 md:pl-16 pl-20 order-2 md:order-2">
+                            <div class="bg-white p-6 rounded-3xl border-b-8 border-r-8 border-slate-100 hover:border-secondary transition-all shadow-sm transform hover:rotate-1">
+                                <h4 class="text-xl font-display font-black text-text-heading group-hover:text-secondary">Lead Game Artist</h4>
+                                <p class="text-slate-400 font-bold text-xs mb-2 uppercase">CardaStation • 08/2022 - 10/2024</p>
+                                <div class="flex flex-wrap gap-2 mt-2">
+                                    <span class="px-3 py-1 bg-secondary/10 text-secondary rounded-lg text-xs font-black uppercase">Art Direction</span>
+                                    <span class="px-3 py-1 bg-secondary/10 text-secondary rounded-lg text-xs font-black uppercase">Notion</span>
+                                    <span class="px-3 py-1 bg-secondary/10 text-secondary rounded-lg text-xs font-black uppercase">Team Leadership</span>
+                                    <span class="px-3 py-1 bg-secondary/10 text-secondary rounded-lg text-xs font-black uppercase">Live Ops</span>
+                                    <span class="px-3 py-1 bg-secondary/10 text-secondary rounded-lg text-xs font-black uppercase">Production Pipeline</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Senior Game Artist - ZPlay - LEFT -->
+                    <div class="relative flex flex-col md:flex-row gap-8 mb-16 items-start md:items-center w-full group">
+                        <div class="md:w-1/2 md:text-right md:pr-16 pl-20 md:pl-0 order-1">
+                            <div class="bg-white p-6 rounded-3xl border-b-8 border-r-8 border-slate-100 hover:border-tertiary transition-all shadow-sm transform hover:-rotate-1">
+                                <h4 class="text-xl font-display font-black text-text-heading group-hover:text-tertiary">Senior Game Artist</h4>
+                                <p class="text-slate-400 font-bold text-xs mb-2 uppercase">ZPlay • 05/2022 - 08/2022</p>
+                                <div class="flex flex-wrap gap-2 mt-2">
+                                    <span class="px-3 py-1 bg-tertiary/10 text-orange-600 rounded-lg text-xs font-black uppercase">Art Direction</span>
+                                    <span class="px-3 py-1 bg-tertiary/10 text-orange-600 rounded-lg text-xs font-black uppercase">Prototype Development</span>
+                                    <span class="px-3 py-1 bg-tertiary/10 text-orange-600 rounded-lg text-xs font-black uppercase">Asset Optimization</span>
+                                    <span class="px-3 py-1 bg-tertiary/10 text-orange-600 rounded-lg text-xs font-black uppercase">Mobile Games</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute left-6 md:left-1/2 size-12 rounded-full bg-white border-4 border-purple-300 shadow-md transform -translate-x-1/2 z-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <div class="size-4 rounded-full bg-purple-300"></div>
+                        </div>
+                        <div class="md:w-1/2 md:pl-16 pl-20 order-2 flex items-center">
+                            <div class="flex flex-col items-start opacity-50 group-hover:opacity-100 transition-opacity">
+                                <span class="text-4xl font-black text-slate-300 font-display">lvl 4</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Senior Game Artist - Mood Games - RIGHT -->
+                    <div class="relative flex flex-col md:flex-row gap-8 mb-16 items-start md:items-center w-full group">
+                        <div class="md:w-1/2 md:text-right md:pr-16 pl-20 md:pl-0 order-1 md:order-1 flex justify-end items-center">
+                            <div class="flex flex-col items-end opacity-50 group-hover:opacity-100 transition-opacity">
+                                <span class="text-4xl font-black text-slate-300 font-display">lvl 3</span>
+                            </div>
+                        </div>
+                        <div class="absolute left-6 md:left-1/2 size-12 rounded-full bg-white border-4 border-purple-300 shadow-md transform -translate-x-1/2 z-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <div class="size-4 rounded-full bg-purple-300"></div>
+                        </div>
+                        <div class="md:w-1/2 md:pl-16 pl-20 order-2 md:order-2">
+                            <div class="bg-white p-6 rounded-3xl border-b-8 border-r-8 border-slate-100 hover:border-primary transition-all shadow-sm transform hover:rotate-1">
+                                <h4 class="text-xl font-display font-black text-text-heading group-hover:text-primary">Senior Game Artist</h4>
+                                <p class="text-slate-400 font-bold text-xs mb-2 uppercase">Mood Games • 11/2020 - 04/2022</p>
+                                <div class="flex flex-wrap gap-2 mt-2">
+                                    <span class="px-3 py-1 bg-primary/10 text-primary rounded-lg text-xs font-black uppercase">Art Direction</span>
+                                    <span class="px-3 py-1 bg-primary/10 text-primary rounded-lg text-xs font-black uppercase">Team Management</span>
+                                    <span class="px-3 py-1 bg-primary/10 text-primary rounded-lg text-xs font-black uppercase">Workflow Optimization</span>
+                                    <span class="px-3 py-1 bg-primary/10 text-primary rounded-lg text-xs font-black uppercase">Chart-Topping Games</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Game Artist - OneTexh - LEFT -->
+                    <div class="relative flex flex-col md:flex-row gap-8 mb-16 items-start md:items-center w-full group">
+                        <div class="md:w-1/2 md:text-right md:pr-16 pl-20 md:pl-0 order-1">
+                            <div class="bg-white p-6 rounded-3xl border-b-8 border-r-8 border-slate-100 hover:border-secondary transition-all shadow-sm transform hover:-rotate-1">
+                                <h4 class="text-xl font-display font-black text-text-heading group-hover:text-secondary">Game Artist</h4>
+                                <p class="text-slate-400 font-bold text-xs mb-2 uppercase">OneTexh • 12/2017 - 06/2020</p>
+                                <div class="flex flex-wrap gap-2 mt-2">
+                                    <span class="px-3 py-1 bg-secondary/10 text-secondary rounded-lg text-xs font-black uppercase">UI/UX Design</span>
+                                    <span class="px-3 py-1 bg-secondary/10 text-secondary rounded-lg text-xs font-black uppercase">2D Art</span>
+                                    <span class="px-3 py-1 bg-secondary/10 text-secondary rounded-lg text-xs font-black uppercase">3D Art</span>
+                                    <span class="px-3 py-1 bg-secondary/10 text-secondary rounded-lg text-xs font-black uppercase">Character Design</span>
+                                    <span class="px-3 py-1 bg-secondary/10 text-secondary rounded-lg text-xs font-black uppercase">Environment Art</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute left-6 md:left-1/2 size-12 rounded-full bg-white border-4 border-purple-300 shadow-md transform -translate-x-1/2 z-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <div class="size-4 rounded-full bg-purple-300"></div>
+                        </div>
+                        <div class="md:w-1/2 md:pl-16 pl-20 order-2 flex items-center">
+                            <div class="flex flex-col items-start opacity-50 group-hover:opacity-100 transition-opacity">
+                                <span class="text-4xl font-black text-slate-300 font-display">lvl 2</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- START GAME Button -->
+                    <div class="relative flex flex-col md:flex-row gap-8 items-start md:items-center w-full group">
+                        <div class="md:w-1/2 md:text-right md:pr-16 pl-20 md:pl-0 order-1 md:order-1 flex justify-end items-center">
+                            <div class="flex flex-col items-end opacity-50 group-hover:opacity-100 transition-opacity">
+                                <span class="text-4xl font-black text-slate-300 font-display">lvl 1</span>
+                            </div>
+                        </div>
+                        <div class="absolute left-6 md:left-1/2 size-12 rounded-full bg-white border-4 border-purple-300 shadow-md transform -translate-x-1/2 z-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <div class="size-4 rounded-full bg-purple-300"></div>
+                        </div>
+                        <div class="md:w-1/2 md:pl-16 pl-20 order-2 md:order-2">
+                            <div class="mt-4">
+                                <span class="inline-block px-4 py-1 rounded-full bg-slate-200 text-slate-500 text-xs font-black">START GAME</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bg-white py-20 border-y-4 border-dashed border-slate-200">
+            <div class="layout-container px-4 md:px-10 lg:px-40 max-w-[1200px] mx-auto">
+                <div class="flex items-center gap-4 mb-12">
+                    <div class="h-1 flex-1 bg-slate-100 rounded-full"></div>
+                    <h2 class="text-3xl font-display font-black text-text-heading uppercase tracking-wide">Achievements</h2>
+                    <div class="h-1 flex-1 bg-slate-100 rounded-full"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div class="bg-background-light p-6 rounded-[2rem] border-2 border-slate-100 hover:border-primary hover:shadow-md transition-all">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="size-14 rounded-full bg-primary text-white flex items-center justify-center shadow-lg">
+                                <span class="material-symbols-outlined text-3xl">emoji_events</span>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-display font-black text-text-heading">Mega-Hit Portfolio</h3>
+                                <p class="text-sm text-slate-400 font-bold">Chart-Topping Titles</p>
+                            </div>
+                        </div>
+                        <p class="text-text-main font-bold opacity-70 text-sm">Directed art for five chart-topping mobile games: Stone Miner, JunkYard Keeper, Queen Bee, Survival Game Master, Water Mania, Water Jam and Bus Mania. Achieved 6+ #1 US Top Chart placements (iOS/Android) and surpassed 35+ million downloads.</p>
+                    </div>
+                    <div class="bg-background-light p-6 rounded-[2rem] border-2 border-slate-100 hover:border-secondary hover:shadow-md transition-all">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="size-14 rounded-full bg-secondary text-white flex items-center justify-center shadow-lg">
+                                <span class="material-symbols-outlined text-3xl">trending_up</span>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-display font-black text-text-heading">Bus Mania Success</h3>
+                                <p class="text-sm text-slate-400 font-bold">7M+ Downloads</p>
+                            </div>
+                        </div>
+                        <p class="text-text-main font-bold opacity-70 text-sm">Led art direction for Bus Mania - Car Parking Jam, a hit puzzle game that scaled to over 7 million downloads and generated US$48k in IAP revenue.</p>
+                    </div>
+                    <div class="bg-background-light p-6 rounded-[2rem] border-2 border-slate-100 hover:border-tertiary hover:shadow-md transition-all">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="size-14 rounded-full bg-tertiary text-text-heading flex items-center justify-center shadow-lg">
+                                <span class="material-symbols-outlined text-3xl">groups</span>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-display font-black text-text-heading">Live Ops & Retention</h3>
+                                <p class="text-sm text-slate-400 font-bold">20% Increase</p>
+                            </div>
+                        </div>
+                        <p class="text-text-main font-bold opacity-70 text-sm">Oversaw art for Live Ops and seasonal events, directly contributing to a 20% increase in player retention during event periods.</p>
+                    </div>
+                    <div class="bg-background-light p-6 rounded-[2rem] border-2 border-slate-100 hover:border-purple-accent hover:shadow-md transition-all">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="size-14 rounded-full bg-purple-accent text-white flex items-center justify-center shadow-lg">
+                                <span class="material-symbols-outlined text-3xl">videogame_asset</span>
+                            </div>
+                            <div>
+                                <h3 class="text-2xl font-display font-black text-text-heading">Multi-Platform</h3>
+                                <p class="text-sm text-slate-400 font-bold">Steam, Mobile, Switch</p>
+                            </div>
+                        </div>
+                        <p class="text-text-main font-bold opacity-70 text-sm">Directed multiple games on Unreal and Unity for Steam. Created IP for Mobile and Nintendo Switch. Directed Art for NFT project on Cardano (ADA) for PC Game on Unity 3D.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="relative py-24 bg-primary overflow-hidden" id="contact">
+            <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#fff 4px, transparent 4px); background-size: 30px 30px;"></div>
+            <div class="absolute -top-20 -right-20 size-80 bg-white opacity-10 rounded-full blur-3xl"></div>
+            <div class="absolute -bottom-20 -left-20 size-80 bg-tertiary opacity-20 rounded-full blur-3xl"></div>
+            <div class="px-4 md:px-10 lg:px-40 layout-container max-w-[1200px] mx-auto relative z-10 text-center">
+                <h2 class="text-4xl md:text-6xl font-display font-black text-white mb-8 drop-shadow-md">
+                    Ready to Join My Party?
+                </h2>
+                <p class="text-white/90 text-xl font-bold max-w-2xl mx-auto mb-10">
+                    I'm currently looking for new adventures, freelance gigs, and co-op missions. Let's build something epic!
+                </p>
+                <div class="flex justify-center gap-4">
+                    <a class="btn-press bg-white text-primary px-8 py-4 rounded-2xl font-black text-lg shadow-game-btn hover:shadow-game-btn-hover transition-all flex items-center gap-2" href="mailto:Wahab.ahmad@live.com">
+                        <span class="material-symbols-outlined">mail</span>
+                        Send Loot
+                    </a>
+                    <a href="assets/Wahab Ahmad CV--.pdf" download class="btn-press bg-purple-accent text-white px-8 py-4 rounded-2xl font-black text-lg shadow-game-btn-purple hover:shadow-game-btn-purple-hover transition-all flex items-center gap-2">
+                        <span class="material-symbols-outlined">download</span>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <!-- Footer will be injected here -->
+    <div id="footer-container"></div>
+</div>
+
+<script src="js/components.js"></script>
+<script src="js/script.js"></script>
+<script src="js/quotes-carousel.js"></script>
+<script>
+    // Initialize components
+    initComponents('about');
+    
+    // Animate skill bars when they come into view
+    document.addEventListener('DOMContentLoaded', function() {
+        const skillBars = document.querySelectorAll('.skill-bar');
+        
+        // Set initial width to 0 for animation
+        skillBars.forEach(bar => {
+            const skillValue = bar.getAttribute('data-skill');
+            bar.style.setProperty('--skill-width', skillValue + '%');
+            bar.style.width = '0%';
+        });
+        
+        // Intersection Observer to trigger animation when bars come into view
+        const observerOptions = {
+            threshold: 0.3,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const bar = entry.target;
+                    const skillValue = bar.getAttribute('data-skill');
+                    bar.style.width = skillValue + '%';
+                    bar.classList.add('animate');
+                    observer.unobserve(bar); // Stop observing once animated
+                }
+            });
+        }, observerOptions);
+        
+        // Observe all skill bars
+        skillBars.forEach(bar => {
+            observer.observe(bar);
+        });
+    });
+</script>
+</body>
+</html>
+

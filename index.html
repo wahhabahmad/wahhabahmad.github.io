@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Wahab Ahmad</title>
+    <link rel="icon" type="image/png" href="assets/logo.png"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#FF6B6B",
+                        "primary-hover": "#EE5253",
+                        secondary: "#4ECDC4",
+                        "secondary-hover": "#45B7AF",
+                        tertiary: "#FFE66D",
+                        "purple-accent": "#9c88ff",
+                        "purple-hover": "#8c7ae6",
+                        "grey-accent": "#6B7280",
+                        "grey-hover": "#4B5563",
+                        "green-accent": "#10B981",
+                        "green-hover": "#059669",
+                        "background-main": "#FFF9E6",
+                        surface: "#ffffff",
+                        "text-main": "#2D3436",
+                        "text-heading": "#2D3436",
+                        "background-light": "#FFFAF0",
+                        "background-dark": "#2D3436",
+                        accent: "#FF9F43"
+                    },
+                    fontFamily: {
+                        display: ["Fredoka", "sans-serif"],
+                        body: ["Nunito", "sans-serif"]
+                    },
+                    borderRadius: {
+                        DEFAULT: "1.5rem",
+                        lg: "2.5rem",
+                        xl: "3.5rem",
+                        full: "9999px"
+                    },
+                    boxShadow: {
+                        "game-btn": "0 6px 0 0 #D63031",
+                        "game-btn-hover": "0 3px 0 0 #D63031",
+                        "game-btn-secondary": "0 6px 0 0 #1ABC9C",
+                        "game-btn-secondary-hover": "0 3px 0 0 #1ABC9C",
+                        "game-btn-purple": "0 6px 0 0 #8c7ae6",
+                        "game-btn-purple-hover": "0 3px 0 0 #8c7ae6",
+                        "game-btn-grey": "0 6px 0 0 #4B5563",
+                        "game-btn-grey-hover": "0 3px 0 0 #4B5563",
+                        "game-btn-green": "0 6px 0 0 #059669",
+                        "game-btn-green-hover": "0 3px 0 0 #059669",
+                        "game-card": "0 10px 0 0 rgba(0,0,0,0.05), 0 20px 25px -5px rgba(0,0,0,0.1)",
+                        "panel": "0 8px 0 0 #FFEAA7",
+                    }
+                }
+            }
+        };
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-background-main text-text-main font-body overflow-x-hidden antialiased selection:bg-secondary selection:text-white">
+<div class="relative flex min-h-screen w-full flex-col">
+    <!-- Navbar will be injected here -->
+    <div id="navbar-container"></div>
+    
+    <div class="relative min-h-screen flex items-center justify-center pt-32 pb-20 overflow-hidden" id="hero">
+        <div class="absolute inset-0 z-0 bg-grid-pattern opacity-20"></div>
+        <div class="absolute top-20 right-[-5%] w-80 h-80 bg-tertiary/40 blob-shape blur-2xl animate-pulse"></div>
+        <div class="absolute bottom-10 left-[-5%] w-96 h-96 bg-secondary/30 blob-shape blur-2xl animate-pulse" style="animation-delay: 1s;"></div>
+        <div class="absolute top-40 left-[20%] w-24 h-24 bg-primary/20 rounded-full blur-xl animate-bounce" style="animation-duration: 3s;"></div>
+        <div class="layout-container relative z-20 px-4 md:px-10 lg:px-40 w-full">
+            <div class="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="flex flex-col items-center lg:items-start gap-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white border-b-4 border-slate-100 shadow-sm animate-bounce" style="color: #0077B5;">
+                        <span class="material-symbols-outlined text-xl filled">stars</span>
+                        <span class="text-sm font-black uppercase tracking-wider">Level 27 Artist Unlocked</span>
+                    </div>
+                    <h1 class="font-display text-text-heading text-6xl md:text-8xl font-black leading-[0.9] tracking-tight drop-shadow-sm transform -rotate-1">
+                        Crafting <br/>
+                        <span class="relative inline-block z-10 px-2 min-h-[1.2em] align-top">
+                            <span id="typing-text" class="typing-text inline-block"></span>
+                            <span class="typing-cursor">|</span>
+                            <svg class="absolute -bottom-2 left-0 w-full h-4 text-tertiary -z-10" preserveAspectRatio="none" viewBox="0 0 100 10">
+                                <path d="M0 5 Q 50 15 100 5" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="12"></path>
+                            </svg>
+                        </span>
+                        <br/>Worlds
+                    </h1>
+                    <div class="bg-white p-8 rounded-[2rem] border-b-8 border-r-8 border-slate-100 shadow-sm relative mt-4 transform rotate-1 max-w-lg">
+                        <div class="absolute -top-5 -left-5 size-14 bg-tertiary rounded-2xl flex items-center justify-center text-text-heading font-black border-4 border-white shadow-md transform -rotate-6">
+                            <span class="material-symbols-outlined text-3xl">emoji_objects</span>
+                        </div>
+                        <h3 class="font-display text-primary font-black text-2xl mb-2 pl-2">My Superpower</h3>
+                        <p class="text-text-main text-lg leading-relaxed font-bold opacity-80">
+                            I turn boring polygons into juicy, clickable, and lovable game art. From squishy UI buttons to bouncy character animations.
+                        </p>
+                    </div>
+                    <div class="flex flex-col sm:flex-row gap-4 mt-6 w-full sm:w-auto justify-center lg:justify-start">
+                        <a class="btn-press flex items-center justify-center gap-3 h-16 px-8 rounded-2xl text-white text-lg font-bold hover:translate-y-[3px] transition-all transform hover:-rotate-1" style="background-color: #0077B5; box-shadow: 0 6px 0 0 #005885;" onmouseover="this.style.boxShadow='0 3px 0 0 #005885';" onmouseout="this.style.boxShadow='0 6px 0 0 #005885';" href="https://www.linkedin.com/in/wahhab-/" target="_blank" rel="noopener noreferrer">
+                            <span>LinkedIn</span>
+                            <svg class="w-8 h-8" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a href="https://www.youtube.com/@wahabahmad1" target="_blank" rel="noopener noreferrer" class="btn-press flex items-center justify-center gap-3 h-16 px-8 rounded-2xl text-white text-lg font-bold hover:translate-y-[3px] transition-all transform hover:-rotate-1" style="background-color: #FF6B6B; box-shadow: 0 6px 0 0 #D63031;" onmouseover="this.style.boxShadow='0 3px 0 0 #D63031';" onmouseout="this.style.boxShadow='0 6px 0 0 #D63031';">
+                            <span>YouTube</span>
+                            <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="relative flex justify-center lg:justify-end perspective-1000 mt-10 lg:mt-0">
+                    <div class="relative w-80 h-96 lg:w-[450px] lg:h-[550px]">
+                        <div class="absolute top-0 right-0 w-full h-full bg-tertiary rounded-[3rem] transform rotate-6 border-4 border-black/5"></div>
+                        <div class="absolute top-0 right-0 w-full h-full bg-secondary rounded-[3rem] transform -rotate-3 border-4 border-black/5"></div>
+                        <div class="absolute top-0 right-0 w-full h-full bg-white rounded-[2.5rem] overflow-hidden border-8 border-white shadow-xl transform hover:scale-105 transition-transform duration-500">
+                            <img alt="Wahab Ahmad Portrait" class="w-full h-full object-cover" src="assets/Wahab Ahmad Portrait.png"/>
+                            <div class="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm rounded-2xl p-4 shadow-lg border-b-4 border-slate-100">
+                                <div class="flex items-center gap-4">
+                                    <div class="size-12 rounded-xl flex items-center justify-center text-white shadow-sm transform -rotate-3" style="background-color: #0077B5;">
+                                        <span class="material-symbols-outlined text-2xl">face</span>
+                                    </div>
+                                    <div>
+                                        <p class="font-display font-black text-xl leading-none text-text-heading">Wahab Ahmad</p>
+                                        <p class="font-bold text-sm uppercase tracking-wider mt-1" style="color: #0077B5;">Lead Artist • Lvl 27</p>
+                                    </div>
+                                    <div class="ml-auto">
+                                        <span class="material-symbols-outlined text-4xl drop-shadow-sm" style="color: #0077B5;">verified</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute -top-8 -right-8 size-20 bg-white rounded-full shadow-xl flex items-center justify-center transform rotate-12 animate-bounce border-4 border-primary p-2">
+                            <img src="assets/zplay2 Red.png" alt="Zplay Logo" class="w-full h-full object-contain"/>
+                        </div>
+                        <div class="absolute top-1/2 -left-10 size-16 bg-white rounded-2xl shadow-xl flex items-center justify-center transform -rotate-12 border-4 border-primary">
+                            <span class="material-symbols-outlined text-3xl text-primary">palette</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-0 w-full leading-none text-white">
+            <svg class="block w-full h-16 md:h-24" data-name="Layer 1" preserveAspectRatio="none" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" fill="#ffffff" fill-opacity="1"></path>
+            </svg>
+        </div>
+    </div>
+    
+    <div class="w-full bg-white pb-16 pt-4">
+        <div class="layout-container px-4 md:px-10 lg:px-40 max-w-[1200px] mx-auto">
+            <div class="bg-background-light rounded-[2.5rem] p-8 md:p-12 border-4 border-dashed border-slate-200 text-center relative overflow-hidden">
+                <p class="inline-block bg-purple-accent text-white px-4 py-1 rounded-lg text-xs font-black uppercase mb-8 shadow-game-btn-purple rotate-[-2deg] animate-bounce" style="animation-duration: 2s;">Guilds Joined</p>
+                <div class="flex flex-wrap justify-center items-center gap-6 md:gap-10 lg:gap-12 opacity-80">
+                    <div class="flex items-center gap-2 text-slate-700 font-display font-black text-lg md:text-xl filter hover:text-primary transition-all cursor-default transform hover:scale-110 duration-300">
+                        <span class="material-symbols-outlined text-2xl md:text-3xl">sports_esports</span> Zplay
+                    </div>
+                    <div class="flex items-center gap-2 text-slate-700 font-display font-black text-lg md:text-xl filter hover:text-secondary transition-all cursor-default transform hover:scale-110 duration-300">
+                        <span class="material-symbols-outlined text-2xl md:text-3xl">token</span> CardaStation
+                    </div>
+                    <div class="flex items-center gap-2 text-slate-700 font-display font-black text-lg md:text-xl filter hover:text-primary transition-all cursor-default transform hover:scale-110 duration-300">
+                        <span class="material-symbols-outlined text-2xl md:text-3xl">videogame_asset</span> Mood Games
+                    </div>
+                    <div class="flex items-center gap-2 text-slate-700 font-display font-black text-lg md:text-xl filter hover:text-tertiary transition-all cursor-default transform hover:scale-110 duration-300">
+                        <span class="material-symbols-outlined text-2xl md:text-3xl">gamepad</span> Rollic
+                    </div>
+                    <div class="flex items-center gap-2 text-slate-700 font-display font-black text-lg md:text-xl filter hover:text-purple-accent transition-all cursor-default transform hover:scale-110 duration-300">
+                        <span class="material-symbols-outlined text-2xl md:text-3xl">diamond</span> Pink Games
+                    </div>
+                    <div class="flex items-center gap-2 text-slate-700 font-display font-black text-lg md:text-xl filter hover:text-secondary transition-all cursor-default transform hover:scale-110 duration-300">
+                        <span class="material-symbols-outlined text-2xl md:text-3xl">star</span> Layla
+                    </div>
+                    <div class="flex items-center gap-2 text-slate-700 font-display font-black text-lg md:text-xl filter hover:text-primary transition-all cursor-default transform hover:scale-110 duration-300">
+                        <span class="material-symbols-outlined text-2xl md:text-3xl">auto_awesome</span> Voodoo
+                    </div>
+                    <div class="flex items-center gap-2 text-slate-700 font-display font-black text-lg md:text-xl filter hover:text-tertiary transition-all cursor-default transform hover:scale-110 duration-300">
+                        <span class="material-symbols-outlined text-2xl md:text-3xl">explore</span> HidenSeek
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="py-24 bg-white relative" id="work">
+        <div class="absolute top-20 left-10 opacity-10 transform rotate-12">
+            <span class="material-symbols-outlined text-9xl text-primary">extension</span>
+        </div>
+        <div class="absolute bottom-40 right-10 opacity-10 transform -rotate-12">
+            <span class="material-symbols-outlined text-9xl text-secondary">joystick</span>
+        </div>
+        <div class="px-4 md:px-10 lg:px-40 layout-container max-w-[1200px] mx-auto relative z-10">
+            <div class="flex flex-col md:flex-row items-end justify-between mb-16 gap-8">
+                <div>
+                    <div class="flex items-center gap-2 mb-2">
+                        <span class="size-4 rounded-full bg-tertiary border-2 border-orange-300"></span>
+                        <span class="text-orange-400 font-black uppercase text-sm tracking-wider">Level Select</span>
+                    </div>
+                    <h2 class="font-display text-5xl md:text-6xl font-black text-text-heading">
+                        My <span class="text-secondary underline decoration-wavy decoration-4 underline-offset-4">Quests</span>
+                    </h2>
+                </div>
+                <div class="flex flex-wrap gap-2 bg-background-light p-2 rounded-2xl border-2 border-slate-100" id="portfolio-filter-buttons">
+                    <button class="px-6 py-3 rounded-xl bg-primary text-white font-black text-sm shadow-game-btn hover:translate-y-1 hover:shadow-none transition-all portfolio-filter-btn active" onclick="filterPortfolioHome('all', this)">All</button>
+                    <button class="px-6 py-3 rounded-xl bg-white text-slate-500 font-bold text-sm border-b-4 border-slate-200 hover:bg-slate-50 hover:text-primary transition-all portfolio-filter-btn" onclick="filterPortfolioHome('games', this)">Games</button>
+                    <button class="px-6 py-3 rounded-xl bg-white text-slate-500 font-bold text-sm border-b-4 border-slate-200 hover:bg-slate-50 hover:text-primary transition-all portfolio-filter-btn" onclick="filterPortfolioHome('ui', this)">UI/UX</button>
+                    <button class="px-6 py-3 rounded-xl bg-white text-slate-500 font-bold text-sm border-b-4 border-slate-200 hover:bg-slate-50 hover:text-primary transition-all portfolio-filter-btn" onclick="filterPortfolioHome('3d', this)">3D Art</button>
+                </div>
+            </div>
+            <!-- Portfolio grid will be loaded from JSON -->
+            <div id="portfolio-grid"></div>
+            <div class="mt-16 flex justify-center">
+                <a href="portfolio.html" class="btn-press px-10 py-4 rounded-full bg-white text-text-heading border-b-4 border-slate-200 text-lg font-black hover:bg-slate-50 hover:border-slate-300 transition-all shadow-sm flex items-center gap-2">
+                    <span class="material-symbols-outlined">refresh</span>
+                    View All Projects
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="py-24 bg-white" id="blog">
+        <div class="px-4 md:px-10 lg:px-40 layout-container max-w-[1200px] mx-auto">
+            <div class="flex items-end justify-between mb-12">
+                <div>
+                    <h2 class="text-4xl md:text-5xl font-display font-black text-text-heading">Blogs</h2>
+                    <p class="text-slate-400 font-bold mt-2 text-lg">Updates from the workshop</p>
+                </div>
+                <a class="hidden sm:inline-block px-6 py-3 rounded-2xl bg-background-light text-primary border-2 border-primary/20 font-black hover:bg-primary hover:text-white transition-all shadow-sm transform hover:-rotate-2" href="blog.html">View Archive</a>
+            </div>
+            <!-- Blog preview - first 3 from JSON -->
+            <div id="blog-preview" class="grid grid-cols-1 md:grid-cols-3 gap-8"></div>
+            <div class="mt-8 text-center sm:hidden">
+                <a class="inline-block px-8 py-3 rounded-2xl bg-white text-primary border-2 border-primary/20 font-black" href="blog.html">View Archive</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="relative py-24 bg-primary overflow-hidden" id="contact">
+        <div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(#fff 4px, transparent 4px); background-size: 30px 30px;"></div>
+        <div class="absolute -top-20 -right-20 size-80 bg-white opacity-10 rounded-full blur-3xl"></div>
+        <div class="absolute -bottom-20 -left-20 size-80 bg-tertiary opacity-20 rounded-full blur-3xl"></div>
+        <div class="px-4 md:px-10 lg:px-40 layout-container max-w-[1200px] mx-auto relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
+                <div class="text-white text-center lg:text-left">
+                    <div class="inline-block bg-white/20 px-4 py-1 rounded-full text-sm font-black uppercase mb-6 backdrop-blur-sm border border-white/20">Open for work</div>
+                    <h2 class="text-5xl md:text-7xl font-display font-black mb-6 drop-shadow-md leading-none">
+                        Ready to <br/>
+                        <span class="text-tertiary text-outline drop-shadow-lg inline-block play-animate relative">Play?</span>
+                    </h2>
+                    <p class="text-white/90 text-xl mb-10 leading-relaxed font-bold max-w-lg mx-auto lg:mx-0">
+                        I'm currently looking for new adventures, freelance gigs, and co-op missions. Let's build something epic!
+                    </p>
+                    <div class="flex flex-col gap-4 justify-center lg:justify-start">
+                        <div class="flex items-center gap-4 bg-white/10 p-4 rounded-2xl border-2 border-white/20 backdrop-blur-md hover:bg-white/20 transition-colors cursor-pointer">
+                            <div class="size-12 rounded-xl bg-white text-primary flex items-center justify-center shadow-lg transform -rotate-3">
+                                <span class="material-symbols-outlined">mail</span>
+                            </div>
+                            <div class="text-left">
+                                <p class="text-white/60 text-[10px] font-black uppercase tracking-wider">Send Loot To</p>
+                                <a class="text-white text-lg font-black hover:text-tertiary transition-colors" href="mailto:Wahab.ahmad@live.com">Wahab.ahmad@live.com</a>
+                            </div>
+                        </div>
+                        <a href="assets/Wahab Ahmad CV--.pdf" download class="btn-press bg-white/10 hover:bg-white/20 px-6 py-4 rounded-2xl border-2 border-white/20 backdrop-blur-md transition-all flex items-center gap-3 text-white font-black">
+                            <span class="material-symbols-outlined">download</span>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+                <div class="bg-white rounded-[2.5rem] p-8 md:p-10 shadow-2xl relative border-8 border-black/5 transform rotate-1">
+                    <div class="absolute -top-8 -right-8 size-24 bg-tertiary rounded-full flex items-center justify-center text-text-heading shadow-game-card animate-bounce hidden md:flex border-4 border-white transform rotate-12">
+                        <span class="font-display font-black text-sm text-center leading-tight">SAY<br/>HI!</span>
+                    </div>
+                    <form class="flex flex-col gap-5" action="#" method="POST">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="flex flex-col gap-2">
+                                <label class="text-slate-400 text-xs font-black uppercase ml-2">Username</label>
+                                <input class="bg-slate-50 border-2 border-slate-200 rounded-2xl p-4 text-text-heading font-bold focus:outline-none focus:border-primary focus:bg-white focus:ring-4 focus:ring-primary/10 transition-all" placeholder="Player 1" type="text" name="username" required/>
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <label class="text-slate-400 text-xs font-black uppercase ml-2">Contact</label>
+                                <input class="bg-slate-50 border-2 border-slate-200 rounded-2xl p-4 text-text-heading font-bold focus:outline-none focus:border-primary focus:bg-white focus:ring-4 focus:ring-primary/10 transition-all" placeholder="email@game.com" type="email" name="email" required/>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <label class="text-slate-400 text-xs font-black uppercase ml-2">Quest Type</label>
+                            <div class="relative">
+                                <select class="w-full bg-slate-50 border-2 border-slate-200 rounded-2xl p-4 pr-12 text-text-heading font-bold focus:outline-none focus:border-primary focus:bg-white focus:ring-4 focus:ring-primary/10 transition-all appearance-none cursor-pointer" name="type" required style="-webkit-appearance: none; -moz-appearance: none; appearance: none; background-image: none;">
+                                    <option>Project Inquiry (New Game)</option>
+                                    <option>Freelance Work (Side Quest)</option>
+                                    <option>Just Saying Hi (NPC Chat)</option>
+                                </select>
+                                <div class="absolute right-4 top-1/2 transform -translate-y-1/2 pointer-events-none text-slate-400 z-10">
+                                    <span class="material-symbols-outlined">expand_more</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <label class="text-slate-400 text-xs font-black uppercase ml-2">Message</label>
+                            <textarea class="bg-slate-50 border-2 border-slate-200 rounded-2xl p-4 text-text-heading font-bold focus:outline-none focus:border-primary focus:bg-white focus:ring-4 focus:ring-primary/10 transition-all resize-none" placeholder="What are we building?" rows="4" name="message" required></textarea>
+                        </div>
+                        <button class="btn-press mt-2 bg-secondary text-white font-black text-xl py-5 rounded-2xl hover:bg-secondary-hover transition-colors shadow-game-btn-secondary w-full uppercase tracking-wider flex justify-center items-center gap-2" type="submit">
+                            Press Start <span class="material-symbols-outlined">arrow_forward</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer will be injected here -->
+    <div id="footer-container"></div>
+</div>
+
+<script src="js/components.js"></script>
+<script src="js/portfolio.js"></script>
+<script src="js/script.js"></script>
+<script>
+    // Initialize components
+    initComponents('index');
+    
+    // Load portfolio preview (first 4 items)
+    window.loadPortfolioPreview = async function(category = 'all') {
+        try {
+            const response = await fetch('portfolio/portfolio.json');
+            if (!response.ok) throw new Error('Failed to load portfolio');
+            const data = await response.json();
+            
+            // Filter by category if specified
+            let filteredProjects = data.projects;
+            if (category !== 'all') {
+                const categoryMap = {
+                    'games': ['Games', 'Environment', 'Character'],
+                    'ui': ['UI/UX'],
+                    '3d': ['3D Art', 'Environment', 'Character', 'Concept Art']
+                };
+                const matchingCategories = categoryMap[category] || [];
+                filteredProjects = data.projects.filter(project => {
+                    // Check if category matches
+                    const categoryMatch = project.category && matchingCategories.some(cat => 
+                        project.category.toLowerCase().includes(cat.toLowerCase())
+                    );
+                    // For UI/UX filter, also check if project has "UI/UX" in tags
+                    if (category === 'ui') {
+                        const tagMatch = project.tags && project.tags.some(tag => 
+                            tag.toLowerCase().includes('ui/ux')
+                        );
+                        return categoryMatch || tagMatch;
+                    }
+                    return categoryMatch;
+                });
+            }
+            
+            const preview = filteredProjects.slice(0, 4);
+            renderPortfolioPreview(preview);
+        } catch (error) {
+            console.error('Error loading portfolio:', error);
+        }
+    }
+    
+    function renderPortfolioPreview(projects) {
+        const container = document.getElementById('portfolio-grid');
+        if (!container || !projects || projects.length === 0) return;
+        
+        const projectsHtml = projects.map((project, index) => {
+            const isLarge = index === 0;
+            const colSpan = isLarge ? 'md:col-span-2 lg:col-span-3' : '';
+            const flexDirection = isLarge ? 'md:flex-row' : '';
+            
+            return `
+                <div class="group ${colSpan} bg-white rounded-[2rem] overflow-hidden shadow-game-card hover:-translate-y-2 transition-transform duration-300 border-4 border-slate-50 flex flex-col ${flexDirection} cursor-pointer relative">
+                    <div class="${isLarge ? 'h-64 md:h-auto md:w-1/2' : 'h-56'} w-full relative overflow-hidden m-2 rounded-[1.5rem] border-2 border-black/5">
+                        <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" style="background-image: url('${project.thumbnail}');"></div>
+                        ${project.category ? `<div class="absolute top-4 left-4 bg-black/60 text-white px-4 py-1.5 rounded-full text-xs font-black uppercase">${project.category}</div>` : ''}
+                        ${['Golf Blitz', 'Bus Mania - Car Parking Jam', 'Water Mania', 'Water Jam Sort Puzzle', 'Stone Miner', 'Junkyard Keeper', 'Gameworld Master', 'CardaStation Metaverse Project', 'Queen Bee!', 'Ball Pals', 'IdleTower Rush'].includes(project.title) ? `
+                            <div class="absolute bottom-4 right-4 z-20 bg-black/50 p-2 rounded-full">
+                                <span class="material-symbols-outlined text-white text-xl">star</span>
+                            </div>
+                        ` : ''}
+                    </div>
+                    <div class="p-${isLarge ? '8' : '6'} ${isLarge ? 'md:w-1/2' : ''} flex flex-col ${isLarge ? 'justify-center' : 'flex-1'}">
+                        <h3 class="font-display text-${isLarge ? '4xl' : '2xl'} font-black text-text-heading mb-${isLarge ? '4' : '2'} group-hover:text-primary transition-colors">${project.title}</h3>
+                        <p class="text-text-main font-bold opacity-70 leading-relaxed mb-6 ${isLarge ? 'text-lg' : 'text-sm'}">${project.description}</p>
+                        ${project.notPublished || project.notReleased ? `
+                            <div class="mt-auto flex gap-3 ${isLarge ? '' : 'flex-col'}">
+                                ${project.videoLink ? `
+                                    <a href="${project.videoLink}" ${project.videoLink.startsWith('http') ? 'target="_blank" rel="noopener noreferrer"' : ''} class="flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-full bg-purple-accent text-white font-black text-sm uppercase shadow-game-btn-purple hover:translate-y-1 hover:shadow-game-btn-purple-hover transition-all">
+                                        <span class="material-symbols-outlined text-lg">play_circle</span>
+                                        <span>Video</span>
+                                    </a>
+                                ` : ''}
+                                <div class="flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-full bg-grey-accent text-white font-black text-sm uppercase shadow-game-btn-grey cursor-not-allowed">
+                                    <span>${project.notReleased ? 'Not Released Yet' : 'Not Published Yet'}</span>
+                                </div>
+                            </div>
+                        ` : (project.iosLink || project.androidLink || project.videoLink || project.websiteLink) ? `
+                            <div class="mt-auto flex gap-3 ${isLarge ? '' : 'flex-col'}">
+                                ${project.iosLink ? `
+                                    <a href="${project.iosLink}" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-full bg-primary text-white font-black text-sm uppercase shadow-game-btn hover:translate-y-1 hover:shadow-game-btn-hover transition-all">
+                                        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M17.05 20.28c-.98.95-2.05.88-3.08.4-1.09-.5-2.08-.48-3.24 0-1.44.62-2.2.44-3.06-.4C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/>
+                                        </svg>
+                                        <span>iOS</span>
+                                    </a>
+                                ` : ''}
+                                ${project.androidLink ? `
+                                    <a href="${project.androidLink}" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-full bg-secondary text-white font-black text-sm uppercase shadow-game-btn-secondary hover:translate-y-1 hover:shadow-game-btn-secondary-hover transition-all">
+                                        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                                            <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.61 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                                        </svg>
+                                        <span>Android</span>
+                                    </a>
+                                ` : ''}
+                                ${project.videoLink ? `
+                                    <a href="${project.videoLink}" ${project.videoLink.startsWith('http') ? 'target="_blank" rel="noopener noreferrer"' : ''} class="flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-full bg-purple-accent text-white font-black text-sm uppercase shadow-game-btn-purple hover:translate-y-1 hover:shadow-game-btn-purple-hover transition-all">
+                                        <span class="material-symbols-outlined text-lg">play_circle</span>
+                                        <span>Video</span>
+                                    </a>
+                                ` : ''}
+                                ${project.websiteLink ? `
+                                    <a href="${project.websiteLink}" target="_blank" rel="noopener noreferrer" class="flex-1 flex items-center justify-center gap-2 py-3 px-4 rounded-full bg-green-accent text-white font-black text-sm uppercase shadow-game-btn-green hover:translate-y-1 hover:shadow-game-btn-green-hover transition-all">
+                                        <span class="material-symbols-outlined text-lg">language</span>
+                                        <span>Website</span>
+                                    </a>
+                                ` : ''}
+                            </div>
+                        ` : project.link ? `<a href="${project.link}" class="mt-auto ${isLarge ? '' : 'w-full'} py-2 rounded-xl bg-slate-100 text-slate-500 font-black text-xs uppercase hover:bg-tertiary hover:text-text-heading transition-colors text-center">View Details</a>` : ''}
+                    </div>
+                </div>
+            `;
+        }).join('');
+        
+        container.innerHTML = `<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">${projectsHtml}</div>`;
+    }
+    
+    // Load blog preview (first 3 items)
+    async function loadBlogPreview() {
+        try {
+            const response = await fetch('blogs/blogs.json');
+            if (!response.ok) {
+                console.error('Failed to fetch blogs.json:', response.status, response.statusText);
+                throw new Error('Failed to load blogs');
+            }
+            const data = await response.json();
+            if (!data || !data.blogs || !Array.isArray(data.blogs)) {
+                console.error('Invalid blog data structure');
+                throw new Error('Invalid blog data');
+            }
+            console.log('Blogs loaded for preview:', data.blogs.length);
+            // Sort by date (newest first) and take first 3
+            const sortedBlogs = [...data.blogs].sort((a, b) => new Date(b.date) - new Date(a.date));
+            const preview = sortedBlogs.slice(0, 3);
+            renderBlogPreview(preview);
+        } catch (error) {
+            console.error('Error loading blogs:', error);
+            const container = document.getElementById('blog-preview');
+            if (container) {
+                let errorMsg = 'Failed to load blog preview. ';
+                if (error.message.includes('Failed to fetch') || error.message.includes('network')) {
+                    errorMsg += 'Please make sure you are viewing this page through a web server (not file://).';
+                } else {
+                    errorMsg += 'Check console for details.';
+                }
+                container.innerHTML = `<p class="text-center text-text-main p-4">${errorMsg}</p>`;
+            }
+        }
+    }
+    
+    function renderBlogPreview(blogs) {
+        const container = document.getElementById('blog-preview');
+        if (!container) {
+            console.error('Blog preview container not found');
+            return;
+        }
+        if (!blogs || blogs.length === 0) {
+            console.error('No blogs to display');
+            container.innerHTML = '<p class="text-center text-text-main col-span-full">No blog posts available.</p>';
+            return;
+        }
+        
+        const cardsHtml = blogs.map((blog, index) => {
+            const coverImageHtml = blog.coverImage 
+                ? `<img src="${blog.coverImage}" alt="${blog.title}" class="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110" />`
+                : '<div class="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center"><span class="material-symbols-outlined text-4xl text-slate-400">article</span></div>';
+            
+            return `
+                <a href="${blog.link || '#'}" class="group flex flex-col gap-4 bg-background-light p-4 rounded-[2rem] shadow-sm hover:shadow-game-card hover:-translate-y-2 transition-all border border-slate-100">
+                    <div class="aspect-video w-full rounded-[1.5rem] overflow-hidden relative bg-slate-200 flex items-center justify-center">
+                        ${coverImageHtml}
+                        ${index === 0 ? '<div class="absolute top-3 right-3 bg-primary text-white text-[10px] font-black px-2 py-1 rounded shadow-sm border border-white z-10">NEW POST</div>' : ''}
+                    </div>
+                    <div class="px-2 pb-2">
+                        <span class="text-primary text-xs font-black uppercase tracking-wider bg-red-100 px-2 py-1 rounded-lg">${blog.category || 'Blog'}</span>
+                        <h3 class="text-xl font-display font-black text-text-heading mt-3 mb-2 leading-tight group-hover:text-primary transition-colors">${blog.title || 'Untitled'}</h3>
+                        <p class="text-text-main text-sm font-medium opacity-70 line-clamp-2">${blog.description || ''}</p>
+                        <span class="mt-2 inline-block text-primary font-black text-sm uppercase tracking-wide group-hover:underline decoration-2 underline-offset-4">Read More →</span>
+                    </div>
+                </a>
+            `;
+        }).join('');
+        
+        container.innerHTML = cardsHtml;
+    }
+    
+    // Typing animation for hero text
+    function initTypingAnimation() {
+        const typingElement = document.getElementById('typing-text');
+        if (!typingElement) return;
+        
+        const words = [
+            { text: 'Fun', color: 'text-primary' },
+            { text: 'Games', color: 'text-secondary' },
+            { text: 'Art', color: 'text-purple-accent' },
+            { text: 'Stories', color: 'text-tertiary' },
+            { text: 'Magic', color: 'text-secondary' }
+        ];
+        
+        let wordIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        let currentWord = '';
+        
+        function type() {
+            const current = words[wordIndex];
+            const fullText = current.text;
+            
+            if (isDeleting) {
+                currentWord = fullText.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                currentWord = fullText.substring(0, charIndex + 1);
+                charIndex++;
+            }
+            
+            typingElement.textContent = currentWord;
+            typingElement.className = `typing-text ${current.color}`;
+            
+            let typeSpeed = isDeleting ? 50 : 100;
+            
+            if (!isDeleting && charIndex === fullText.length) {
+                typeSpeed = 2000; // Pause at end of word
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                wordIndex = (wordIndex + 1) % words.length;
+                typeSpeed = 500; // Pause before next word
+            }
+            
+            setTimeout(type, typeSpeed);
+        }
+        
+        type();
+    }
+    
+    // Load previews on page load
+    (function() {
+        function initPreviews() {
+            window.loadPortfolioPreview('all');
+            loadBlogPreview();
+            initTypingAnimation();
+        }
+        
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initPreviews);
+        } else {
+            // DOM is already loaded
+            initPreviews();
+        }
+    })();
+</script>
+</body>
+</html>
+

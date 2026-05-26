@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>How a Structured Art Pipeline Boosted Efficiency in a Metaverse Project - Wahab Ahmad</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script id="tailwind-config">
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#FF6B6B",
+                        "primary-hover": "#EE5253",
+                        secondary: "#4ECDC4",
+                        "secondary-hover": "#45B7AF",
+                        tertiary: "#FFE66D",
+                        "purple-accent": "#9c88ff",
+                        "purple-hover": "#8c7ae6",
+                        "background-main": "#FFF9E6",
+                        surface: "#ffffff",
+                        "text-main": "#2D3436",
+                        "text-heading": "#2D3436",
+                        "background-light": "#FFFAF0",
+                        "background-dark": "#2D3436",
+                        accent: "#FF9F43"
+                    },
+                    fontFamily: {
+                        display: ["Fredoka", "sans-serif"],
+                        body: ["Nunito", "sans-serif"]
+                    },
+                    borderRadius: {
+                        DEFAULT: "1.5rem",
+                        lg: "2.5rem",
+                        xl: "3.5rem",
+                        full: "9999px"
+                    },
+                    boxShadow: {
+                        "game-btn": "0 6px 0 0 #D63031",
+                        "game-btn-hover": "0 3px 0 0 #D63031",
+                        "game-btn-secondary": "0 6px 0 0 #1ABC9C",
+                        "game-btn-secondary-hover": "0 3px 0 0 #1ABC9C",
+                        "game-btn-purple": "0 6px 0 0 #8c7ae6",
+                        "game-btn-purple-hover": "0 3px 0 0 #8c7ae6",
+                        "game-card": "0 10px 0 0 rgba(0,0,0,0.05), 0 20px 25px -5px rgba(0,0,0,0.1)",
+                        "panel": "0 8px 0 0 #FFEAA7",
+                    }
+                }
+            }
+        };
+    </script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="bg-background-main text-text-main font-body overflow-x-hidden antialiased selection:bg-secondary selection:text-white">
+<div class="relative flex min-h-screen w-full flex-col">
+    <!-- Navbar will be injected here -->
+    <div id="navbar-container"></div>
+    
+    <main class="flex-grow pt-32 pb-20">
+        <article class="max-w-4xl mx-auto px-4 md:px-10 lg:px-40">
+            <!-- Header -->
+            <header class="mb-12">
+                <div class="mb-6">
+                    <a href="../blog.html" class="inline-flex items-center gap-2 text-primary hover:text-primary-hover font-bold transition-colors mb-4">
+                        <span class="material-symbols-outlined">arrow_back</span>
+                        Back to Blog
+                    </a>
+                </div>
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-display font-black text-text-heading leading-tight mb-6">
+                    How a Structured Art Pipeline Boosted Efficiency in a Metaverse Project
+                </h1>
+                <div class="flex flex-wrap items-center gap-4 text-sm text-slate-500 font-bold">
+                    <span class="flex items-center gap-2">
+                        <span class="material-symbols-outlined text-lg">calendar_today</span>
+                        <time datetime="2024-01-15">January 15, 2024</time>
+                    </span>
+                    <span class="flex items-center gap-2">
+                        <span class="material-symbols-outlined text-lg">schedule</span>
+                        8 min read
+                    </span>
+                    <span class="px-3 py-1 bg-purple-accent/10 text-purple-accent rounded-full">Pipeline</span>
+                </div>
+            </header>
+
+            <!-- Content -->
+            <div class="prose prose-lg max-w-none">
+                <!-- Introduction -->
+                <section class="mb-12">
+                    <p class="text-lg md:text-xl text-text-main font-bold leading-relaxed opacity-90 mb-6">
+                        Metaverse projects move fast — combining 3D environments, digital identity, interactive assets, and constant iteration. In these ecosystems, art isn't just visual… it's functional, scalable, and collaborative.
+                    </p>
+                    <p class="text-lg md:text-xl text-text-main font-bold leading-relaxed opacity-90 mb-6">
+                        During my time working on a Metaverse platform, I joined an art team full of creative potential. The challenge wasn't talent — it was the lack of a unified process to turn ideas into deployable digital assets efficiently.
+                    </p>
+                    <p class="text-lg md:text-xl text-text-main font-bold leading-relaxed opacity-90">
+                        So I designed and implemented a workflow framework we called the Art Playbook Pipeline, built specifically to solve production friction and improve team efficiency.
+                    </p>
+                </section>
+
+                <!-- Key Problems -->
+                <section class="mb-12">
+                    <h2 class="text-3xl md:text-4xl font-display font-black text-text-heading mb-6">The Key Problems We Faced</h2>
+                    <p class="text-lg text-text-main font-bold leading-relaxed opacity-80 mb-6">
+                        The art team was struggling with:
+                    </p>
+                    <ul class="space-y-4 mb-6">
+                        <li class="flex items-start gap-3">
+                            <span class="text-primary text-2xl mt-1">•</span>
+                            <span class="text-lg text-text-main font-bold opacity-80"><strong>Missing direction</strong> — artists didn't have a clear visual or functional brief</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-primary text-2xl mt-1">•</span>
+                            <span class="text-lg text-text-main font-bold opacity-80"><strong>No standardized documentation</strong> — feedback became repetitive and vague</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-primary text-2xl mt-1">•</span>
+                            <span class="text-lg text-text-main font-bold opacity-80"><strong>Style inconsistency</strong> — every asset looked like it belonged to a different world</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-primary text-2xl mt-1">•</span>
+                            <span class="text-lg text-text-main font-bold opacity-80"><strong>Timeline slippage</strong> — production stages weren't defined</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-primary text-2xl mt-1">•</span>
+                            <span class="text-lg text-text-main font-bold opacity-80"><strong>Feedback loops without context</strong> — revisions happened without clarity</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-primary text-2xl mt-1">•</span>
+                            <span class="text-lg text-text-main font-bold opacity-80"><strong>Communication overload</strong> — too many messages, too little alignment</span>
+                        </li>
+                    </ul>
+                    <p class="text-lg text-text-main font-bold leading-relaxed opacity-80">
+                        These inefficiencies are common in metaverse art production, where every asset is unique and interconnected.
+                    </p>
+                </section>
+
+                <!-- Solution -->
+                <section class="mb-12">
+                    <h2 class="text-3xl md:text-4xl font-display font-black text-text-heading mb-6">The Solution: The Art Playbook Pipeline</h2>
+                    <div class="bg-background-light p-8 rounded-3xl border-4 border-purple-accent/20 mb-6">
+                        <p class="text-lg text-text-main font-bold leading-relaxed opacity-90 mb-4">
+                            A <strong>Playbook</strong> is essentially:
+                        </p>
+                        <p class="text-xl text-text-heading font-black italic mb-4">
+                            A set of guidelines, best practices, and rules suitable for a specific activity or project.
+                        </p>
+                        <p class="text-lg text-text-main font-bold leading-relaxed opacity-80">
+                            For us, it became our single source of truth for creating 3D assets that were both visually consistent and technically reliable.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- 5 Stages -->
+                <section class="mb-12">
+                    <h2 class="text-3xl md:text-4xl font-display font-black text-text-heading mb-8">The 5 Stages That Changed Everything</h2>
+                    
+                    <!-- Stage 1 -->
+                    <div class="mb-10 bg-white p-8 rounded-3xl border-2 border-slate-100 shadow-sm">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="size-12 rounded-full bg-primary text-white flex items-center justify-center font-display font-black text-xl">1</div>
+                            <h3 class="text-2xl md:text-3xl font-display font-black text-text-heading">Discovery</h3>
+                        </div>
+                        <p class="text-lg text-text-main font-bold opacity-80 mb-4">We established:</p>
+                        <ul class="space-y-2 ml-4">
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Project vision</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Creative direction</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Communication expectations</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Asset requirements</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Documentation rules</span>
+                            </li>
+                        </ul>
+                        <p class="text-lg text-text-main font-bold opacity-80 mt-4 italic">
+                            This ensured everyone understood the project before creating anything.
+                        </p>
+                    </div>
+
+                    <!-- Stage 2 -->
+                    <div class="mb-10 bg-white p-8 rounded-3xl border-2 border-slate-100 shadow-sm">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="size-12 rounded-full bg-secondary text-white flex items-center justify-center font-display font-black text-xl">2</div>
+                            <h3 class="text-2xl md:text-3xl font-display font-black text-text-heading">Ideation & Moodboards</h3>
+                        </div>
+                        <p class="text-lg text-text-main font-bold opacity-80 mb-4">We introduced:</p>
+                        <ul class="space-y-3">
+                            <li class="text-lg text-text-main font-bold opacity-80">
+                                <strong>Moodboards</strong> — a collage of references, colors, themes, and visual tone
+                            </li>
+                            <li class="text-lg text-text-main font-bold opacity-80">
+                                Quick sketches and blockouts
+                            </li>
+                            <li class="text-lg text-text-main font-bold opacity-80">
+                                Style exploration
+                            </li>
+                            <li class="text-lg text-text-main font-bold opacity-80">
+                                Shared reference points
+                            </li>
+                        </ul>
+                        <p class="text-lg text-text-main font-bold opacity-80 mt-4 italic">
+                            This allowed artists to create believable assets while still adding personal flair — without breaking project consistency.
+                        </p>
+                    </div>
+
+                    <!-- Stage 3 -->
+                    <div class="mb-10 bg-white p-8 rounded-3xl border-2 border-slate-100 shadow-sm">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="size-12 rounded-full bg-tertiary text-text-heading flex items-center justify-center font-display font-black text-xl">3</div>
+                            <h3 class="text-2xl md:text-3xl font-display font-black text-text-heading">Asset Tasks (Structured Pipeline)</h3>
+                        </div>
+                        <p class="text-lg text-text-main font-bold opacity-80 mb-4">We standardized:</p>
+                        <ul class="space-y-2 ml-4">
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Asset ownership</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Naming conventions</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Task breakdowns</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Milestone clarity</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Delivery expectations</span>
+                            </li>
+                        </ul>
+                        <p class="text-lg text-text-main font-bold opacity-80 mt-4 italic">
+                            This became a simple but powerful efficiency pipeline.
+                        </p>
+                    </div>
+
+                    <!-- Stage 4 -->
+                    <div class="mb-10 bg-white p-8 rounded-3xl border-2 border-slate-100 shadow-sm">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="size-12 rounded-full bg-purple-accent text-white flex items-center justify-center font-display font-black text-xl">4</div>
+                            <h3 class="text-2xl md:text-3xl font-display font-black text-text-heading">Technical Measuring & Unity Checks</h3>
+                        </div>
+                        <p class="text-lg text-text-main font-bold opacity-80 mb-4">Every asset passed through validation:</p>
+                        <ul class="space-y-2 ml-4">
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Rotation & orientation</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Scale & dimensions</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Origin alignment</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Lighting preview</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Unity environment check</span>
+                            </li>
+                        </ul>
+                        <p class="text-lg text-text-main font-bold opacity-80 mt-4 italic">
+                            This guaranteed assets worked perfectly inside the Metaverse world, not just in modeling tools.
+                        </p>
+                    </div>
+
+                    <!-- Stage 5 -->
+                    <div class="mb-10 bg-white p-8 rounded-3xl border-2 border-slate-100 shadow-sm">
+                        <div class="flex items-center gap-4 mb-4">
+                            <div class="size-12 rounded-full bg-primary text-white flex items-center justify-center font-display font-black text-xl">5</div>
+                            <h3 class="text-2xl md:text-3xl font-display font-black text-text-heading">Completion Stage</h3>
+                        </div>
+                        <p class="text-lg text-text-main font-bold opacity-80 mb-4">This is where the pipeline paid off:</p>
+                        <ul class="space-y-2 ml-4">
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Feedback became minimal and actionable</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Deadlines were hit reliably</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Style became unified across the metaverse</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Rework was reduced drastically</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Collaboration improved</span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-secondary">✓</span>
+                                <span class="text-lg text-text-main font-bold opacity-80">Team morale increased</span>
+                            </li>
+                        </ul>
+                        <p class="text-lg text-text-main font-bold opacity-80 mt-4 italic">
+                            Because everything was documented, feedback didn't require long explanations — the team already had the blueprint.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Results -->
+                <section class="mb-12">
+                    <h2 class="text-3xl md:text-4xl font-display font-black text-text-heading mb-8">The Results</h2>
+                    <div class="overflow-x-auto mb-8">
+                        <table class="w-full border-collapse bg-white rounded-3xl overflow-hidden shadow-sm">
+                            <thead class="bg-primary text-white">
+                                <tr>
+                                    <th class="px-6 py-4 text-left font-display font-black text-lg">Before Playbook</th>
+                                    <th class="px-6 py-4 text-left font-display font-black text-lg">After Playbook</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-text-main font-bold">
+                                <tr class="border-b border-slate-100">
+                                    <td class="px-6 py-4">No creative brief</td>
+                                    <td class="px-6 py-4 text-secondary">Clear direction & purpose</td>
+                                </tr>
+                                <tr class="border-b border-slate-100 bg-background-light">
+                                    <td class="px-6 py-4">Inconsistent assets</td>
+                                    <td class="px-6 py-4 text-secondary">Unified Metaverse art style</td>
+                                </tr>
+                                <tr class="border-b border-slate-100">
+                                    <td class="px-6 py-4">Repetitive feedback</td>
+                                    <td class="px-6 py-4 text-secondary">Minimal, structured, actionable feedback</td>
+                                </tr>
+                                <tr class="border-b border-slate-100 bg-background-light">
+                                    <td class="px-6 py-4">Missed timelines</td>
+                                    <td class="px-6 py-4 text-secondary">Reliable milestone delivery</td>
+                                </tr>
+                                <tr class="border-b border-slate-100">
+                                    <td class="px-6 py-4">Heavy rework</td>
+                                    <td class="px-6 py-4 text-secondary">Faster iteration, fewer revisions</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-6 py-4">Message overload</td>
+                                    <td class="px-6 py-4 text-secondary">Better communication, less noise</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- What This Meant -->
+                <section class="mb-12">
+                    <h2 class="text-3xl md:text-4xl font-display font-black text-text-heading mb-6">What This Meant for the Project</h2>
+                    <p class="text-lg text-text-main font-bold leading-relaxed opacity-80 mb-4">
+                        The Playbook allowed us to treat art as a scalable system, not isolated creative pieces. This was crucial in a Metaverse environment where:
+                    </p>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-start gap-3">
+                            <span class="text-primary text-xl mt-1">→</span>
+                            <span class="text-lg text-text-main font-bold opacity-80">Assets are interconnected</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-primary text-xl mt-1">→</span>
+                            <span class="text-lg text-text-main font-bold opacity-80">Worlds need visual harmony</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-primary text-xl mt-1">→</span>
+                            <span class="text-lg text-text-main font-bold opacity-80">3D art must be optimized for real-time interaction</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-primary text-xl mt-1">→</span>
+                            <span class="text-lg text-text-main font-bold opacity-80">Teams need alignment more than critique</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="text-primary text-xl mt-1">→</span>
+                            <span class="text-lg text-text-main font-bold opacity-80">Efficiency impacts user experience directly</span>
+                        </li>
+                    </ul>
+                    <p class="text-lg text-text-main font-bold leading-relaxed opacity-80">
+                        Most importantly, it enabled us to learn and grow together, instead of wasting time guessing or over-communicating.
+                    </p>
+                </section>
+
+                <!-- Conclusion -->
+                <section class="mb-12">
+                    <h2 class="text-3xl md:text-4xl font-display font-black text-text-heading mb-6">Conclusion</h2>
+                    <p class="text-lg text-text-main font-bold leading-relaxed opacity-80 mb-6">
+                        Metaverse art production isn't improved by working harder — it's improved by removing ambiguity and creating structure.
+                    </p>
+                    <p class="text-lg text-text-main font-bold leading-relaxed opacity-80 mb-6">
+                        By implementing the Art Playbook Pipeline, we:
+                    </p>
+                    <div class="bg-background-light p-8 rounded-3xl border-4 border-secondary/20 mb-6">
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-3">
+                                <span class="text-secondary text-2xl">✔</span>
+                                <span class="text-lg text-text-main font-bold opacity-90">Unified creative vision</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-secondary text-2xl">✔</span>
+                                <span class="text-lg text-text-main font-bold opacity-90">Reduced feedback time</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-secondary text-2xl">✔</span>
+                                <span class="text-lg text-text-main font-bold opacity-90">Built technical consistency</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-secondary text-2xl">✔</span>
+                                <span class="text-lg text-text-main font-bold opacity-90">Delivered faster</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-secondary text-2xl">✔</span>
+                                <span class="text-lg text-text-main font-bold opacity-90">Improved team collaboration</span>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <span class="text-secondary text-2xl">✔</span>
+                                <span class="text-lg text-text-main font-bold opacity-90">Created a repeatable system for future Metaverse worlds</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="text-xl text-text-heading font-black leading-relaxed">
+                        A good pipeline doesn't just increase efficiency — it unlocks creative confidence.
+                    </p>
+                </section>
+            </div>
+
+            <!-- Footer Actions -->
+            <div class="mt-12 pt-8 border-t-4 border-dashed border-slate-200 flex flex-col sm:flex-row justify-between items-center gap-4">
+                <a href="../blog.html" class="btn-press inline-flex items-center gap-2 px-6 py-3 rounded-2xl bg-primary text-white font-black shadow-game-btn hover:shadow-game-btn-hover transition-all">
+                    <span class="material-symbols-outlined">arrow_back</span>
+                    Back to Blog
+                </a>
+                <div class="flex gap-4">
+                    <button onclick="window.print()" class="px-6 py-3 rounded-2xl bg-slate-100 text-text-heading font-bold hover:bg-slate-200 transition-colors">
+                        <span class="material-symbols-outlined">print</span>
+                    </button>
+                    <button onclick="window.location.href='mailto:?subject=' + encodeURIComponent(document.title) + '&body=' + encodeURIComponent(window.location.href)" class="px-6 py-3 rounded-2xl bg-slate-100 text-text-heading font-bold hover:bg-slate-200 transition-colors">
+                        <span class="material-symbols-outlined">share</span>
+                    </button>
+                </div>
+            </div>
+        </article>
+    </main>
+    
+    <!-- Footer will be injected here -->
+    <div id="footer-container"></div>
+</div>
+
+<script src="../js/components.js"></script>
+<script src="../js/script.js"></script>
+<script>
+    // Initialize components
+    initComponents('blog');
+</script>
+</body>
+</html>
+
